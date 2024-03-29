@@ -1,0 +1,78 @@
+[
+  {
+    "schedule": [
+      {
+        "id": ,
+        "round": ,
+        "status": "pending",
+        "country": {
+          "Name": "",
+          "Img": {
+            "src": "",
+            "alt": ""
+          }
+        },
+        "sessions": [
+          {
+            "name": "Practise 1",
+            "time": "",
+            "date": ""
+          },
+          {
+            "name": "Practise 2",
+            "time": "",
+            "date": ""
+          },
+          {
+            "name": "Practise 3",
+            "time": "",
+            "date": ""
+          },
+          {
+            "name": "Qualifying",
+            "time": "",
+            "date": ""
+          }
+        ],
+        "race": {
+          "id": 0,
+          "name": "Race",
+          "date": "",
+          "results": [
+            {
+              "position": ,
+              "points": ,
+              "time": "",
+              "driver": {
+                "name": "",
+                "image": {
+                  "url": "",
+                  "alt": ""
+                },
+                "bio": "",
+                "height": "",
+                "number": ,
+                "dateOfBirth": "",
+                "nationality": "",
+                "teamName": ""
+              }
+            }
+          ]
+        },
+        "track": {
+          "image": {
+            "url": "",
+            "alt": ""
+          },
+          "name": "",
+          "bio": "",
+          "firstGrandPrix": ,
+          "laps": ,
+          "length": ,
+          "distance": ,
+          "lapRecord": "",
+        }
+      }
+    ]
+  }
+]

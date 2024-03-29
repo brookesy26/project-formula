@@ -1,9 +1,9 @@
 import Title from "../components/title"
 
-export default function Home() {
+export default function Drivers() {
   return (
     <div>
-      <Title headerLevel1={"Calendar"} />
+      <Title headerLevel1={"Drivers"} />
     </div>
   )
 }
