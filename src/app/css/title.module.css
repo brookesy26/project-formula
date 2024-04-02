@@ -1,0 +1,10 @@
+.title {
+  padding: 10px;
+  z-index: 999;
+  width: 100%;
+}
+
+.title {
+  background-color: black;
+  color: #fff;
+}

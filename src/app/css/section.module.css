@@ -1,0 +1,18 @@
+.ending {
+  height: 500svh;
+}
+
+.ending {
+  background-color: #191d1c;
+}
+
+.lowerSection {
+  height: 95svh;
+  width: 95svw;
+  position: relative;
+  top: 0px;
+  z-index: 44;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+}

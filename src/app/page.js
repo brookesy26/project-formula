@@ -1,9 +1,19 @@
-import Title from "../components/title"
+
+import Title from "../app/components/title"
+import CardLooper from "./components/cardLooper"
+import FullSection from "./components/section"
+import SectionStyle from "./css/section.module.css"
 
 export default function Home() {
+
+
   return (
-    <div>
+    <>
       <Title headerLevel1={"Calendar"} />
-    </div>
+      {/* <FullSection className={SectionStyle.intro} /> */}
+      <CardLooper />
+      <FullSection className={SectionStyle.ending} />
+      <FullSection className={SectionStyle.lowerSection} ariaHidden={"true"} />
+    </>
   )
 }
