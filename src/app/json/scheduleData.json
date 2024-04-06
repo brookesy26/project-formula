@@ -1,0 +1,584 @@
+{
+  "schedule": [
+    {
+      "id": 1,
+      "round": 1,
+      "status": "completed",
+      "country": {
+        "name": "Bahrain",
+        "image": {
+          "url": "./images/flags/bahrain-flag.webp",
+          "alt": "Bahrain flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Bahrain International Circuit",
+        "location": "Sakhir",
+        "image": {
+          "url": "./images/trackImages/bahrain.svg",
+          "alt": "bahrain track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/bahrain.webp",
+        "alt": "multiple formula S cars on track in bahrain"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-02-29T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-03-01T15:00:00"
+        }
+      ],
+      "race": {
+        "id": 0,
+        "name": "Race",
+        "date": "2024-03-02T15:00:00"
+      },
+      "results": [
+        {
+          "position": 1,
+          "points": 26,
+          "driver": {
+            "name": "Marco Bianchi",
+            "team": "Sorrento Motors",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        },
+        {
+          "position": 2,
+          "points": 18,
+          "driver": {
+            "name": "Miguel Santos",
+            "team": "Ravenstone",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        },
+        {
+          "position": 3,
+          "points": 15,
+          "driver": {
+            "name": "Alexander Rossi",
+            "team": "Purple Whale Racing",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "round": 2,
+      "status": "completed",
+      "country": {
+        "name": "Saudi Arabia",
+        "image": {
+          "url": "./images/flags/saudi-flag.webp",
+          "alt": "saudi arabia flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Jeddah Corniche Circuit",
+        "location": "Jeddah",
+        "image": {
+          "url": "./images/trackImages/jeddah.svg",
+          "alt": "jeddah track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/saudi.webp",
+        "alt": "multiple formula S cars on track in saudi arabia"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-03-07T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-03-08T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-03-09T15:00:00"
+      },
+      "results": [
+        {
+          "position": 1,
+          "points": 26,
+          "driver": {
+            "name": "Miguel Santos",
+            "team": "Ravenstone",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        },
+        {
+          "position": 2,
+          "points": 18,
+          "driver": {
+            "name": "Marco Bianchi",
+            "team": "Sorrento Motors",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        },
+        {
+          "position": 3,
+          "points": 15,
+          "driver": {
+            "name": "Andre Lefevre",
+            "team": "Everhart Racing",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "round": 3,
+      "status": "completed",
+      "country": {
+        "name": "Australia",
+        "image": {
+          "url": "./images/flags/australia-flag.webp",
+          "alt": "australia flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Albert Park Circuit",
+        "location": "Melbourne",
+        "image": {
+          "url": "./images/trackImages/albert.svg",
+          "alt": "melbourne track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/australia.webp",
+        "alt": "multiple formula S cars on track in australia"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-03-22T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-03-23T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-03-24T15:00:00"
+      },
+      "results": [
+        {
+          "position": 1,
+          "points": 26,
+          "driver": {
+            "name": "Alexander Rossi",
+            "team": "Purple Whale Racing",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        },
+        {
+          "position": 2,
+          "points": 18,
+          "driver": {
+            "name": "Remy Dubois",
+            "team": "Vittori Autosport",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        },
+        {
+          "position": 3,
+          "points": 15,
+          "driver": {
+            "name": "Marco Bianchi",
+            "team": "Sorrento Motors",
+            "image": {
+              "url": "",
+              "alt": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "round": 4,
+      "status": "pending",
+      "country": {
+        "name": "Japan",
+        "image": {
+          "url": "./images/flags/japan-flag.webp",
+          "alt": "japan flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Suzuka International Racing Course",
+        "location": "Suzuka",
+        "image": {
+          "url": "./images/trackImages/japan.svg",
+          "alt": "Suzuka track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/japan.webp",
+        "alt": "multiple formula S cars on track in japan"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-04-05T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-04-06T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-04-07T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 5,
+      "round": 5,
+      "status": "pending",
+      "country": {
+        "name": "China",
+        "image": {
+          "url": "./images/flags/china-flag.webp",
+          "alt": "china flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Hanghai International Circuit",
+        "location": "Shanghai",
+        "image": {
+          "url": "./images/trackImages/china.svg",
+          "alt": "Shanghai track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/china.webp",
+        "alt": "multiple formula S cars on track in china"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-04-19T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-04-20T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-04-21T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 6,
+      "round": 6,
+      "status": "pending",
+      "country": {
+        "name": "United States",
+        "image": {
+          "url": "./images/flags/usa-flag.webp",
+          "alt": "usa flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Miami International Autodrome",
+        "location": "Miami",
+        "image": {
+          "url": "./images/trackImages/miami.svg",
+          "alt": "Miami track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/miami.webp",
+        "alt": "multiple formula S cars on track in miami"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-05-03T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-05-04T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-05-05T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 7,
+      "round": 7,
+      "status": "pending",
+      "country": {
+        "name": "Italy",
+        "image": {
+          "url": "./images/flags/italy-flag.webp",
+          "alt": "italy flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Autodromo Enzo e Dino Ferrari",
+        "location": "Imola",
+        "image": {
+          "url": "./images/trackImages/italy.svg",
+          "alt": "Imola track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/italy.webp",
+        "alt": "multiple formula S cars on track in italy"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-05-17T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-05-18T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-05-19T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 8,
+      "round": 8,
+      "status": "pending",
+      "country": {
+        "name": "Monaco",
+        "image": {
+          "url": "./images/flags/monaco-flag.webp",
+          "alt": "monaco flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Circuit de Monaco",
+        "location": "Monaco",
+        "image": {
+          "url": "./images/trackImages/monaco.svg",
+          "alt": "Monaco track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/monaco.webp",
+        "alt": "multiple formula S cars on track in monaco"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-05-24T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-05-25T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-05-26T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 9,
+      "round": 9,
+      "status": "pending",
+      "country": {
+        "name": "Canada",
+        "image": {
+          "url": "./images/flags/canada-flag.webp",
+          "alt": "canada flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Circuit Gilles-Villeneuve",
+        "location": "Montréal",
+        "image": {
+          "url": "./images/trackImages/canada.svg",
+          "alt": "Montréal track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/canada.webp",
+        "alt": "multiple formula S cars on track in canada"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-06-07T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-06-08T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-06-09T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 10,
+      "round": 10,
+      "status": "pending",
+      "country": {
+        "name": "Spain",
+        "image": {
+          "url": "./images/flags/spain-flag.webp",
+          "alt": "spain flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Circuit de Barcelona-Catalunya",
+        "location": "Barcelona",
+        "image": {
+          "url": "./images/trackImages/barcelona.svg",
+          "alt": "Barcelona-Catalunya track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/spain.webp",
+        "alt": "multiple formula S cars on track in spain"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-06-21T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-06-22T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-06-23T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 11,
+      "round": 11,
+      "status": "pending",
+      "country": {
+        "name": "Austria",
+        "image": {
+          "url": "./images/flags/austria-flag.webp",
+          "alt": "austria flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Red Bull Ring",
+        "location": "Spielberg",
+        "image": {
+          "url": "./images/trackImages/redbull-austria.svg",
+          "alt": "Spielberg track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/austria.webp",
+        "alt": "multiple formula S cars on track in austria"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-06-28T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-06-29T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-06-30T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 12,
+      "round": 12,
+      "status": "pending",
+      "country": {
+        "name": "Great Britain",
+        "image": {
+          "url": "./images/flags/uk-flag.webp",
+          "alt": "uk flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Silverstone Circuit",
+        "location": "Silverstone",
+        "image": {
+          "url": "./images/trackImages/uk.svg",
+          "alt": "Silverstone track"
+        }
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/uk.webp",
+        "alt": "multiple formula S cars on track in england"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-07-05T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-07-06T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-07-07T15:00:00"
+      },
+      "results": []
+    }
+  ]
+}

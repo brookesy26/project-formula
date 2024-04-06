@@ -1,11 +1,3 @@
-.ending {
-  height: 500svh;
-}
-
-.ending {
-  background-color: #191d1c;
-}
-
 .lowerSection {
   height: 95svh;
   width: 95svw;
@@ -15,4 +7,21 @@
   background-color: #ffffff;
   border-radius: 20px;
   box-sizing: border-box;
+}
+
+.titleSection {
+  height: 100svh;
+  width: 100svw;
+  grid-column: 1/13;
+  grid-row: 1/2;
+  position: sticky;
+  top: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleSection {
+  background-color: #f5f7f8;
 }

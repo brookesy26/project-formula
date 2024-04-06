@@ -2,14 +2,20 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 1em;
   height: 100svh;
-  width: 100%;
-  position: relative;
+  width: 100svw;
   position: sticky;
-  top: 0;
+  top: -20px;
+  z-index: 999;
 }
 
-.cardContainer {
-  /* background-color: rgb(62, 185, 78); */
+.cardContainer,
+.ending {
+  grid-column: 1/13;
+}
+
+
+/* edit height for more scroll length for cards*/
+.ending {
+  height: 600svh;
 }

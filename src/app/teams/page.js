@@ -1,9 +1,11 @@
 import Title from "../components/title"
+import FullSection from "../components/section"
+import fs from "../css/section.module.css"
 
 export default function Teams() {
   return (
-    <div>
-      <Title headerLevel1={"Teams"} />
-    </div>
+    <FullSection className={fs.titleSection}>
+      <Title headerLevel1={"Schedule"} link={"/"} />
+    </FullSection>
   )
 }

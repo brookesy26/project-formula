@@ -1,10 +1,9 @@
 .title {
-  padding: 10px;
-  z-index: 999;
-  width: 100%;
+  color: #000000;
+  font-size: 20svw;
 }
 
-.title {
-  background-color: black;
-  color: #fff;
+.title a {
+  color: #1a1a1a;
+  text-decoration: none;
 }

@@ -1,5 +1,64 @@
+@font-face {
+  font-family: "bebas";
+  src: url("./fonts/bebas.woff2");
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-Regular.woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-Bold.woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-BoldItalic.woff2");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-Italic.woff2");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-SemiBold.woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("./fonts/TitilliumWeb-SemiBoldItalic.woff2");
+  font-style: italic;
+  font-weight: 500;
+}
+
 :root {
-  --card-Color: #fff;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --card-scale: 0.7;
+  --h3-small: 1.25rem;
+  --text-small: 0.9rem;
+  --large-text-small-device: 2.5rem;
+  --medium-device: 2.5rem;
+  --large-device: 2.5rem;
+  --heading-font: "bebas";
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {
@@ -7,12 +66,16 @@
   margin: 0;
 }
 
+h1 {
+  font-family: "bebas";
+}
+
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(66, 66, 66);
+  background-color: #f5f7f8;
   z-index: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
 }
 
 body::-webkit-scrollbar {
@@ -23,24 +86,20 @@ nav {
   width: 100%;
   height: fit-content;
   position: fixed;
-  bottom: 0;
-  background-color: black;
+  bottom: 10px;
   display: flex;
   justify-content: center;
   z-index: 9999;
 }
 
+nav {}
+
 nav button {
   height: 50px;
   width: 50px;
-  padding: 10px;
-}
-
-
-.box {
-  height: 50px;
-  width: 50px;
-  background-color: black;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.178);
 }
 
 #card0 {
@@ -55,73 +114,57 @@ nav button {
 }
 
 #card2 {
-  transform: translateY(0);
+  transform: translate3d(0px, 0px, 0px);
   scale: 0.8;
   z-index: 8;
 }
 
+
+#card3,
+#card4,
+#card5,
+#card6,
+#card7,
+#card8,
+#card9,
+#card10,
+#card11 {
+  transform: translate3d(0px, 0px, 0px);
+  scale: var(--card-scale);
+}
+
 #card3 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 7;
-  opacity: 0;
 }
 
 #card4 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 6;
-  opacity: 0;
 }
 
 #card5 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 5;
-  opacity: 0;
 }
 
 #card6 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 4;
-  opacity: 0;
 }
 
 #card7 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 3;
-  opacity: 0;
 }
 
 #card8 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 2;
-  opacity: 0;
-
 }
 
 #card9 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 1;
-  opacity: 0;
-
 }
 
 #card10 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: 0;
-  opacity: 0;
-
 }
 
 #card11 {
-  transform: translateY(0);
-  scale: 0.8;
   z-index: -1;
-  opacity: 0;
 }
