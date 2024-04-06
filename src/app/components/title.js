@@ -1,6 +1,10 @@
-const Title = ({ headerLevel1 }) => {
+import titleStyle from "../css/title.module.css"
+
+
+const Title = ({ headerLevel1, link }) => {
+
   return (
-    <h1>{headerLevel1}</h1>
+    <h1 className={titleStyle.title}><a href={link}>{headerLevel1}</a></h1>
   )
 }
 

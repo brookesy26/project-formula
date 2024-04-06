@@ -1,9 +1,12 @@
-import { Children } from "react"
+import cardStyle from "../css/card.module.css"
 
-const card = () => {
+const Card = ({ id, testId, children, className }) => {
+
   return (
-    <section>{Children}</section>
+    <section id={id} className={className} data-testid={testId}>
+      {children}
+    </section>
   )
 }
 
-export default card
+export default Card
