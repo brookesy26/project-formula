@@ -5,7 +5,7 @@ import fs from "../css/section.module.css"
 export default function Teams() {
   return (
     <FullSection className={fs.titleSection}>
-      <Title headerLevel1={"Schedule"} link={"/"} />
+      <Title headerLevel1={"Teams"} link={"/"} />
     </FullSection>
   )
 }

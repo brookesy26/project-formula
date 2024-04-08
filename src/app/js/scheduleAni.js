@@ -31,8 +31,10 @@ export default function scheduleAnimationSequence() {
   const tl = gsap.timeline({
     scrollTrigger: {
       trigger: "#cardsContainer",
-      start: "100px",
-      end: "+=500%",
+      pin: true,
+      pinSpacing: true,
+      start: "+=10%",
+      end: "1000%",
       scrub: 1,
       // markers: true,
     }

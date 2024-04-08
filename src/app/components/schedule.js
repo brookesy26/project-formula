@@ -13,7 +13,14 @@ const ScheduleCards = () => {
 
         {scheduleJson.schedule.map((race, i) => (
 
-          <Card key={i} id={`card${i}`} testId={`card${i}`} className={`${cardStyle.scheduleCard} ${cardStyle.card}`}>
+          <Card
+            key={i}
+            id={`card${i}`}
+            testId={`card${i}`}
+            className={`${cardStyle.scheduleCard} ${cardStyle.card}`}
+            href={"/race"}
+            pageId={race}
+          >
 
             <section className={cardStyle.cardHeader}>
               <h2>{race.country.name}</h2>

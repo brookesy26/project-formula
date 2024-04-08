@@ -5,8 +5,8 @@
   height: 100svh;
   width: 100svw;
   position: sticky;
-  top: -20px;
-  z-index: 999;
+  top: 5svh;
+  z-index: 11;
 }
 
 .cardContainer,
@@ -17,5 +17,5 @@
 
 /* edit height for more scroll length for cards*/
 .ending {
-  height: 600svh;
+  height: 500svh;
 }

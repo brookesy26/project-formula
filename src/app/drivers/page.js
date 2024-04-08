@@ -1,9 +1,11 @@
 import Title from "../components/title"
+import FullSection from "../components/section"
+import driverStyles from "../css/section.module.css"
 
 export default function Drivers() {
   return (
-    <div>
-      <Title headerLevel1={"Drivers"} />
-    </div>
+    <FullSection className={driverStyles.titleSection}>
+      <Title headerLevel1={"Drivers"} link={"/"} />
+    </FullSection>
   )
 }

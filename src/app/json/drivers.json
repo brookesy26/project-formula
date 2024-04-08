@@ -1,0 +1,404 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "team": "Vittori Autosport",
+      "name": "Alexander Rossi",
+      "image": {
+        "url": "./images/drivers/alexander-rossi.jpg",
+        "alt": "Alexander Rossi headshot"
+      },
+      "bio": "",
+      "height": "182 cm",
+      "number": 5,
+      "dob": "1991-03-15",
+      "nationality": "Italian",
+      "podiums": 18,
+      "points": 1024,
+      "grandPrixEntered": 97,
+      "worldChampionships": 1,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 2,
+      "team": "Meridian",
+      "name": "Lucas Weber",
+      "image": {
+        "url": "./images/drivers/lucas-weber.jpg",
+        "alt": "Lucas Weber headshot"
+      },
+      "bio": "",
+      "height": "178 cm",
+      "number": 17,
+      "dob": "1994-06-22",
+      "nationality": "German",
+      "podiums": 12,
+      "points": 876,
+      "grandPrixEntered": 85,
+      "worldChampionships": 0,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 3,
+      "team": "Ravenstone",
+      "name": "Miguel Santos",
+      "image": {
+        "url": "./images/drivers/miguel-santos.jpg",
+        "alt": "Miguel Santos headshot"
+      },
+      "bio": "",
+      "height": "175 cm",
+      "number": 12,
+      "dob": "1988-09-09",
+      "nationality": "Brazilian",
+      "podiums": 20,
+      "points": 1348,
+      "grandPrixEntered": 110,
+      "worldChampionships": 2,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 4,
+      "team": "Purple Whale Racing",
+      "name": "Ted Atwood",
+      "image": {
+        "url": "./images/drivers/ted-atwood.jpg",
+        "alt": "Ted Atwood headshot"
+      },
+      "bio": "",
+      "height": "180 cm",
+      "number": 9,
+      "dob": "1993-04-10",
+      "nationality": "British",
+      "podiums": 15,
+      "points": 957,
+      "grandPrixEntered": 92,
+      "worldChampionships": 0,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 5,
+      "team": "Redwood Racing",
+      "name": "Finn Jackson",
+      "image": {
+        "url": "./images/drivers/finn-jackson.jpg",
+        "alt": "Finn Jackson headshot"
+      },
+      "bio": "",
+      "height": "188 cm",
+      "number": 20,
+      "dob": "1990-12-05",
+      "nationality": "Australian",
+      "podiums": 9,
+      "points": 648,
+      "grandPrixEntered": 77,
+      "worldChampionships": 0,
+      "highestRaceFinish": 2,
+      "highestGridPosition": 2
+    },
+    {
+      "id": 6,
+      "team": "Vittori Autosport",
+      "name": "Remy Dubois",
+      "image": {
+        "url": "./images/drivers/remy-dubois.jpg",
+        "alt": "Remy Dubois headshot"
+      },
+      "bio": "",
+      "height": "183 cm",
+      "number": 15,
+      "dob": "1989-02-17",
+      "nationality": "French",
+      "podiums": 14,
+      "points": 822,
+      "grandPrixEntered": 89,
+      "worldChampionships": 1,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 7,
+      "team": "Sorrento Motors",
+      "name": "Sergio Martinez",
+      "image": {
+        "url": "./images/drivers/sergio-martinez.jpg",
+        "alt": "Sergio Martinez headshot"
+      },
+      "bio": "",
+      "height": "177 cm",
+      "number": 8,
+      "dob": "1992-07-08",
+      "nationality": "Spanish",
+      "podiums": 11,
+      "points": 786,
+      "grandPrixEntered": 81,
+      "worldChampionships": 0,
+      "highestRaceFinish": 2,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 8,
+      "team": "Meridian",
+      "name": "Oliver Huber",
+      "image": {
+        "url": "./images/drivers/oliver-huber.jpg",
+        "alt": "Oliver Huber headshot"
+      },
+      "bio": "",
+      "height": "184 cm",
+      "number": 13,
+      "dob": "1995-10-03",
+      "nationality": "Austrian",
+      "podiums": 7,
+      "points": 529,
+      "grandPrixEntered": 70,
+      "worldChampionships": 0,
+      "highestRaceFinish": 3,
+      "highestGridPosition": 2
+    },
+    {
+      "id": 9,
+      "team": "Everhart Racing",
+      "name": "Liam Taylor",
+      "image": {
+        "url": "./images/drivers/liam-taylor.jpg",
+        "alt": "Liam Taylor headshot"
+      },
+      "bio": "",
+      "height": "190 cm",
+      "number": 7,
+      "dob": "1997-01-19",
+      "nationality": "Canadian",
+      "podiums": 5,
+      "points": 402,
+      "grandPrixEntered": 60,
+      "worldChampionships": 0,
+      "highestRaceFinish": 3,
+      "highestGridPosition": 3
+    },
+    {
+      "id": 10,
+      "team": "Everhart Racing",
+      "name": "Hiroshi Tanaka",
+      "image": {
+        "url": "./images/drivers/hiroshi-tanaka.jpg",
+        "alt": "Hiroshi Tanaka headshot"
+      },
+      "bio": "",
+      "height": "172 cm",
+      "number": 4,
+      "dob": "1986-05-23",
+      "nationality": "Japanese",
+      "podiums": 8,
+      "points": 610,
+      "grandPrixEntered": 76,
+      "worldChampionships": 0,
+      "highestRaceFinish": 2,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 11,
+      "team": "Redwood Racing",
+      "name": "Finn Larsen",
+      "image": {
+        "url": "./images/drivers/finn-larsen.jpg",
+        "alt": "Finn Larsen headshot"
+      },
+      "bio": "",
+      "height": "187 cm",
+      "number": 22,
+      "dob": "1994-08-30",
+      "nationality": "Danish",
+      "podiums": 4,
+      "points": 367,
+      "grandPrixEntered": 53,
+      "worldChampionships": 0,
+      "highestRaceFinish": 3,
+      "highestGridPosition": 4
+    },
+    {
+      "id": 12,
+      "team": "Vanguard Racing",
+      "name": "Aaron Wright",
+      "image": {
+        "url": "./images/drivers/aaron-wright.jpg",
+        "alt": "Aaron Wright headshot"
+      },
+      "bio": "",
+      "height": "182 cm",
+      "number": 1,
+      "dob": "1996-03-27",
+      "nationality": "American",
+      "podiums": 6,
+      "points": 488,
+      "grandPrixEntered": 68,
+      "worldChampionships": 0,
+      "highestRaceFinish": 2,
+      "highestGridPosition": 3
+    },
+    {
+      "id": 13,
+      "team": "Crestwood",
+      "name": "Maria Jansen",
+      "image": {
+        "url": "./images/drivers/maria-jansen.jpg",
+        "alt": "Maria Jansen headshot"
+      },
+      "bio": "",
+      "height": "176 cm",
+      "number": 18,
+      "dob": "1998-04-20",
+      "nationality": "Dutch",
+      "podiums": 3,
+      "points": 321,
+      "grandPrixEntered": 57,
+      "worldChampionships": 0,
+      "highestRaceFinish": 4,
+      "highestGridPosition": 5
+    },
+    {
+      "id": 14,
+      "team": "Sorrento Motors",
+      "name": "Marco Bianchi",
+      "image": {
+        "url": "./images/drivers/marco-bianchi.jpg",
+        "alt": "Marco Bianchi headshot"
+      },
+      "bio": "",
+      "height": "179 cm",
+      "number": 19,
+      "dob": "1988-07-14",
+      "nationality": "Italian",
+      "podiums": 17,
+      "points": 1052,
+      "grandPrixEntered": 99,
+      "worldChampionships": 2,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 15,
+      "team": "Crestwood",
+      "name": "Jens Hoffmann",
+      "image": {
+        "url": "./images/drivers/jens-hoffmann.jpg",
+        "alt": "Jens Hoffmann headshot"
+      },
+      "bio": "",
+      "height": "185 cm",
+      "number": 2,
+      "dob": "1990-09-01",
+      "nationality": "German",
+      "podiums": 10,
+      "points": 746,
+      "grandPrixEntered": 84,
+      "worldChampionships": 0,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 16,
+      "team": "Ashford",
+      "name": "Connor Murphy",
+      "image": {
+        "url": "./images/drivers/connor-murphy.jpg",
+        "alt": "Connor Murphy headshot"
+      },
+      "bio": "",
+      "height": "178 cm",
+      "number": 21,
+      "dob": "1995-12-12",
+      "nationality": "Irish",
+      "podiums": 2,
+      "points": 254,
+      "grandPrixEntered": 49,
+      "worldChampionships": 0,
+      "highestRaceFinish": 4,
+      "highestGridPosition": 6
+    },
+    {
+      "id": 17,
+      "team": "Everhart Racing",
+      "name": "Andre Lefevre",
+      "image": {
+        "url": "./images/drivers/andre-lefevre.jpg",
+        "alt": "Andre Lefevre headshot"
+      },
+      "bio": "",
+      "height": "174 cm",
+      "number": 10,
+      "dob": "1987-02-25",
+      "nationality": "French",
+      "podiums": 13,
+      "points": 889,
+      "grandPrixEntered": 87,
+      "worldChampionships": 1,
+      "highestRaceFinish": 1,
+      "highestGridPosition": 1
+    },
+    {
+      "id": 18,
+      "team": "Ravenstone",
+      "name": "Santiago Rivera",
+      "image": {
+        "url": "./images/drivers/santiago-rivera.jpg",
+        "alt": "Santiago Rivera headshot"
+      },
+      "bio": "",
+      "height": "170 cm",
+      "number": 11,
+      "dob": "1992-06-17",
+      "nationality": "Mexican",
+      "podiums": 7,
+      "points": 562,
+      "grandPrixEntered": 73,
+      "worldChampionships": 0,
+      "highestRaceFinish": 2,
+      "highestGridPosition": 2
+    },
+    {
+      "id": 19,
+      "team": "Ashford",
+      "name": "Chris Green",
+      "image": {
+        "url": "./images/drivers/chris-green.jpg",
+        "alt": "Chris Green headshot"
+      },
+      "bio": "",
+      "height": "188 cm",
+      "number": 16,
+      "dob": "1999-03-03",
+      "nationality": "Canadian",
+      "podiums": 1,
+      "points": 198,
+      "grandPrixEntered": 41,
+      "worldChampionships": 0,
+      "highestRaceFinish": 5,
+      "highestGridPosition": 7
+    },
+    {
+      "id": 20,
+      "team": "Ashford",
+      "name": "Lee Kwang-Soo",
+      "image": {
+        "url": "./images/drivers/lee-kwang-soo.jpg",
+        "alt": "Lee Kwang-Soo headshot"
+      },
+      "bio": "",
+      "height": "180 cm",
+      "number": 3,
+      "dob": "1993-11-14",
+      "nationality": "South Korean",
+      "podiums": 3,
+      "points": 305,
+      "grandPrixEntered": 55,
+      "worldChampionships": 0,
+      "highestRaceFinish": 3,
+      "highestGridPosition": 4
+    }
+  ]
+}

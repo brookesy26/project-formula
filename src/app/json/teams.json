@@ -1,0 +1,274 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "teamName": "Purple Whale Racing",
+      "base": "Silverstone, United Kingdom",
+      "teamChief": "Elizabeth Hawthorne",
+      "technicalChief": "Ian Fletcher",
+      "chassis": "PWR-01",
+      "powerUnit": "V6 Turbo Hybrid",
+      "yearOfEntry": 1998,
+      "worldChampionshipsWon": 2,
+      "polePositions": 34,
+      "fastestLaps": 45,
+      "drivers": [
+        {
+          "name": "Alexender Rossi",
+          "number": 1,
+          "url": "./images/drivers/alexender-r",
+          "alt": "Alexender Rossi headshot"
+        },
+        {
+          "name": "Ted Atwood",
+          "number": 12,
+          "url": "./images/drivers/ted-a",
+          "alt": "Ted Atwood headshot"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "teamName": "Sorrento Motors",
+      "base": "Milan, Italy",
+      "teamChief": "Marco Sorrentino",
+      "technicalChief": "Giulia Ferraro",
+      "chassis": "SM22",
+      "powerUnit": "Sorrento V6T-H",
+      "yearOfEntry": 1985,
+      "worldChampionshipsWon": 5,
+      "polePositions": 62,
+      "fastestLaps": 77,
+      "drivers": [
+        {
+          "name": "Marco Bianchi",
+          "number": 15,
+          "url": "./images/drivers/marco-b",
+          "alt": "Marco Bianchi headshot"
+        },
+        {
+          "name": "Sergio Martinez",
+          "number": 19,
+          "url": "./images/drivers/sergio-m",
+          "alt": "Sergio Martinez headshot"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "teamName": "Vittori Autosport",
+      "base": "Turin, Italy",
+      "teamChief": "Alessandro Vittori",
+      "technicalChief": "Luca Bernardi",
+      "chassis": "VA-18",
+      "powerUnit": "Vittori PowerTech V6",
+      "yearOfEntry": 2005,
+      "worldChampionshipsWon": 1,
+      "polePositions": 22,
+      "fastestLaps": 33,
+      "drivers": [
+        {
+          "name": "Remy Dubois",
+          "number": 10,
+          "url": "./images/drivers/remy-d",
+          "alt": "Remy Dubois headshot"
+        },
+        {
+          "name": "Lucas Weber",
+          "number": 17,
+          "url": "./images/drivers/lucas-w",
+          "alt": "Lucas Weber headshot"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "teamName": "Meridian",
+      "base": "Stuttgart, Germany",
+      "teamChief": "Johannes Becker",
+      "technicalChief": "Petra Müller",
+      "chassis": "M21",
+      "powerUnit": "Meridian Performance V6",
+      "yearOfEntry": 2010,
+      "worldChampionshipsWon": 0,
+      "polePositions": 5,
+      "fastestLaps": 18,
+      "drivers": [
+        {
+          "name": "Oliver Huber",
+          "number": 6,
+          "url": "./images/drivers/oliver-h",
+          "alt": "Oliver Huber headshot"
+        },
+        {
+          "name": "Finn Jackson",
+          "number": 23,
+          "url": "./images/drivers/finn-j",
+          "alt": "Finn Jackson headshot"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "teamName": "Vanguard Racing",
+      "base": "Los Angeles, United States",
+      "teamChief": "Michael Johnson",
+      "technicalChief": "Emily Carter",
+      "chassis": "VG-19",
+      "powerUnit": "Vanguard Hybrid V6",
+      "yearOfEntry": 2015,
+      "worldChampionshipsWon": 0,
+      "polePositions": 1,
+      "fastestLaps": 10,
+      "drivers": [
+        {
+          "name": "Aaron Wright",
+          "number": 5,
+          "url": "./images/drivers/aaron-w",
+          "alt": "Aaron Wright headshot"
+        },
+        {
+          "name": "Lee Kwang-Soo",
+          "number": 8,
+          "url": "./images/drivers/lee-k",
+          "alt": "Lee Kwang-Soo headshot"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "teamName": "Crestwood",
+      "base": "Oxford, United Kingdom",
+      "teamChief": "Richard Hammond",
+      "technicalChief": "Sophie Turner",
+      "chassis": "CW-14",
+      "powerUnit": "Crestwood V6 Turbo Hybrid",
+      "yearOfEntry": 1978,
+      "worldChampionshipsWon": 3,
+      "polePositions": 48,
+      "fastestLaps": 64,
+      "drivers": [
+        {
+          "name": "Jens Hoffmann",
+          "number": 3,
+          "url": "./images/drivers/jens-h",
+          "alt": "Jens Hoffmann headshot"
+        },
+        {
+          "name": "Maria Jensen",
+          "number": 9,
+          "url": "./images/drivers/maria-j",
+          "alt": "Maria Jensen headshot"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "teamName": "Ashford",
+      "base": "Geneva, Switzerland",
+      "teamChief": "Nathalie Deschamps",
+      "technicalChief": "Jean-Luc Girard",
+      "chassis": "AF-17",
+      "powerUnit": "Ashford Advanced V6",
+      "yearOfEntry": 1992,
+      "worldChampionshipsWon": 0,
+      "polePositions": 12,
+      "fastestLaps": 19,
+      "drivers": [
+        {
+          "name": "Chris Green",
+          "number": 4,
+          "url": "./images/drivers/chris-g",
+          "alt": "Chris Green headshot"
+        },
+        {
+          "name": "Connor Murphy",
+          "number": 2,
+          "url": "./images/drivers/connor-m",
+          "alt": "Connor Murphy headshot"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "teamName": "Everhart Racing",
+      "base": "Charlotte, United States",
+      "teamChief": "James Everhart",
+      "technicalChief": "Maria Gonzalez",
+      "chassis": "EH-20",
+      "powerUnit": "Everhart Energy V6",
+      "yearOfEntry": 2000,
+      "worldChampionshipsWon": 1,
+      "polePositions": 25,
+      "fastestLaps": 37,
+      "drivers": [
+        {
+          "name": "Andre Lefevre",
+          "number": 7,
+          "url": "./images/drivers/andre-l",
+          "alt": "Andre Lefevre headshot"
+        },
+        {
+          "name": "Hiroshi Tanaka",
+          "number": 11,
+          "url": "./images/drivers/hiroshi-t",
+          "alt": "Hiroshi Tanaka headshot"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "teamName": "Ravenstone",
+      "base": "Berlin, Germany",
+      "teamChief": "Lukas Schmidt",
+      "technicalChief": "Anja Weber",
+      "chassis": "RS-22",
+      "powerUnit": "Ravenstone Power V6",
+      "yearOfEntry": 1980,
+      "worldChampionshipsWon": 4,
+      "polePositions": 53,
+      "fastestLaps": 70,
+      "drivers": [
+        {
+          "name": "Miguel Santos",
+          "number": 18,
+          "url": "./images/drivers/miguel-s",
+          "alt": "Miguel Santos headshot"
+        },
+        {
+          "name": "Santiago Rivera",
+          "number": 16,
+          "url": "./images/drivers/santiago-r",
+          "alt": "Santiago Rivera headshot"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "teamName": "Redwood Racing",
+      "base": "San Francisco, United States",
+      "teamChief": "Thomas Redwood",
+      "technicalChief": "Elena Rodriguez",
+      "chassis": "RW-26",
+      "powerUnit": "Redwood Electric V6 Hybrid",
+      "yearOfEntry": 2010,
+      "worldChampionshipsWon": 0,
+      "polePositions": 8,
+      "fastestLaps": 15,
+      "drivers": [
+        {
+          "name": "Liam Taylor",
+          "number": 13,
+          "url": "./images/drivers/liam-t",
+          "alt": "Liam Taylor headshot"
+        },
+        {
+          "name": "Finn Larsen",
+          "number": 14,
+          "url": "./images/drivers/finn-l",
+          "alt": "Finn Larsen headshot"
+        }
+      ]
+    }
+  ]
+}

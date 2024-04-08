@@ -1,6 +1,7 @@
-const MenuButton = () => {
+const MenuButton = ({ onClick, className }) => {
+
   return (
-    <button></button>
+    <button className={className} onClick={onClick}><div></div></button>
   )
 }
 
