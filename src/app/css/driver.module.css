@@ -3,6 +3,13 @@
     font-size: 12svw;
   }
 
+  body .bioSection,
+  body .statsContainer {
+    grid-column: 2/12;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   body .statsContainer li {
     padding: 0 10px 20px 10px;
   }
@@ -60,8 +67,9 @@
   margin-top: 25svh;
 }
 
-.statsContainer summary {
-  padding: 10px;
+.statsContainer summary,
+.bioSection summary {
+  padding: 20px;
 }
 
 .statsContainer ul {
@@ -109,11 +117,10 @@
 
 .bioSection details {
   background-color: var(--primary-red);
-  padding: 10px;
   border-radius: 0 0 5px 5px;
 }
 
 
 .bioSection p {
-  margin: 0 0 1em 0;
+  padding: 0 10px 1em 10px;
 }
