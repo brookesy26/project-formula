@@ -5,15 +5,18 @@ import { useState } from "react"
 
 const NavBar = () => {
   const [toggle, setToggle] = useState("closed")
+  const [expandedState, setExspandedState] = useState(false)
+
 
   const handleMenuToggle = () => {
-    toggle == "closed" ? setToggle("open") : setToggle("closed")
+    expandedState == false ? setExspandedState(true) : setExspandedState(false);
+    toggle == "closed" ? setToggle("open") : setToggle("closed");
   }
 
   return (
     <>
       <nav className={toggle} >
-        <MenuButton onClick={handleMenuToggle} />
+        <MenuButton onClick={handleMenuToggle} expandedState={expandedState} />
         <NavLinks onClick={handleMenuToggle} />
       </nav>
     </>

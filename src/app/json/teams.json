@@ -12,17 +12,31 @@
       "worldChampionshipsWon": 2,
       "polePositions": 34,
       "fastestLaps": 45,
+      "bio": [
+        "Founded in 1998 by a consortium of British automotive enthusiasts and engineers, Purple Whale Racing quickly emerged as a formidable force in Formula S. Named for its distinctive purple livery and the symbolic endurance and intelligence of a whale, the team prides itself on strategic prowess and technical excellence. Purple Whale made its Formula S debut with a splash, challenging established teams and securing a podium in its first season.",
+        "Over the last five years, Purple Whale Racing has shown consistent improvement, culminating in a constructors' championship victory. Their journey from midfield regulars to title contenders is a testament to the team's dedication and innovative approach to racing."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/uk-flag.webp",
+          "alt": "united kingdom flag"
+        },
+        "team": {
+          "url": "./images/teams/pwr.webp",
+          "alt": "purple whale racing team group photo"
+        }
+      },
       "drivers": [
         {
           "name": "Alexender Rossi",
           "number": 1,
-          "url": "./images/drivers/alexender-r",
+          "url": "./images/drivers/alexender-r.webp",
           "alt": "Alexender Rossi headshot"
         },
         {
           "name": "Ted Atwood",
           "number": 12,
-          "url": "./images/drivers/ted-a",
+          "url": "./images/drivers/ted-a.webp",
           "alt": "Ted Atwood headshot"
         }
       ]
@@ -39,17 +53,31 @@
       "worldChampionshipsWon": 5,
       "polePositions": 62,
       "fastestLaps": 77,
+      "bio": [
+        "Sorrento Motors, founded in 1985 by the ambitious Italian entrepreneur Marco Sorrentino, has become synonymous with passion, flair, and competitive spirit. Drawing on Italy's rich motorsport heritage, Sorrento Motors entered Formula S aiming to blend artistic design with cutting-edge technology. Their cars, known for their striking aesthetics and power, have carried some of the sport's most talented drivers to victory.",
+        "The last five years have been a rollercoaster for Sorrento Motors, with the team experiencing both championship glory and heartbreak. Despite the ups and downs, Sorrento remains a beloved and respected stalwart in the Formula S paddock, consistently fighting at the sharp end of the grid."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/italy-flag.webp",
+          "alt": "italy flag"
+        },
+        "team": {
+          "url": "./images/teams/sorrento.webp",
+          "alt": "sorrento motors team photo"
+        }
+      },
       "drivers": [
         {
           "name": "Marco Bianchi",
           "number": 15,
-          "url": "./images/drivers/marco-b",
+          "url": "./images/drivers/marco-b.webp",
           "alt": "Marco Bianchi headshot"
         },
         {
           "name": "Sergio Martinez",
           "number": 19,
-          "url": "./images/drivers/sergio-m",
+          "url": "./images/drivers/sergio-m.webp",
           "alt": "Sergio Martinez headshot"
         }
       ]
@@ -66,17 +94,31 @@
       "worldChampionshipsWon": 1,
       "polePositions": 22,
       "fastestLaps": 33,
+      "bio": [
+        "Vittori Autosport, the brainchild of former racing driver Alessandro Vittori, entered the Formula S scene in 2005 with a vision to combine driving excellence with Italian engineering prowess. The team quickly gained a reputation for its aggressive development pace and innovative strategies, capturing their first world championship within a decade of their debut.",
+        "In the past five years, Vittori Autosport has faced intense competition, with fluctuating performances but showing glimpses of brilliance. The team's resilience and commitment to improvement have kept them in the hunt for podiums, making them a dark horse each season."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/italy-flag.webp",
+          "alt": "italy flag"
+        },
+        "team": {
+          "url": "./images/teams/vittori.webp",
+          "alt": "vittori autosport team photo"
+        }
+      },
       "drivers": [
         {
           "name": "Remy Dubois",
           "number": 10,
-          "url": "./images/drivers/remy-d",
+          "url": "./images/drivers/remy-d.webp",
           "alt": "Remy Dubois headshot"
         },
         {
           "name": "Lucas Weber",
           "number": 17,
-          "url": "./images/drivers/lucas-w",
+          "url": "./images/drivers/lucas-w.webp",
           "alt": "Lucas Weber headshot"
         }
       ]
@@ -93,17 +135,31 @@
       "worldChampionshipsWon": 0,
       "polePositions": 5,
       "fastestLaps": 18,
+      "bio": [
+        "Meridian represents the pinnacle of German engineering and efficiency in Formula S. Founded in 2010 by a group of automotive engineers and racing aficionados, Meridian sought to challenge the status quo with a focus on precision, reliability, and aerodynamic efficiency. Despite not yet winning a championship, Meridian has earned respect for its methodical approach and consistent point finishes.",
+        "The last five years have seen Meridian steadily climb the ranks, with a breakthrough victory and multiple podium finishes highlighting their potential. The team's dedication to technical excellence continues to narrow the gap to the front-runners, promising a bright future."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/german-flag.webp",
+          "alt": "german flag"
+        },
+        "team": {
+          "url": "./images/teams/meridian.webp",
+          "alt": "meridian group photo"
+        }
+      },
       "drivers": [
         {
           "name": "Oliver Huber",
           "number": 6,
-          "url": "./images/drivers/oliver-h",
+          "url": "./images/drivers/oliver-h.webp",
           "alt": "Oliver Huber headshot"
         },
         {
           "name": "Finn Jackson",
           "number": 23,
-          "url": "./images/drivers/finn-j",
+          "url": "./images/drivers/finn-j.webp",
           "alt": "Finn Jackson headshot"
         }
       ]
@@ -120,17 +176,31 @@
       "worldChampionshipsWon": 0,
       "polePositions": 1,
       "fastestLaps": 10,
+      "bio": [
+        "Emerging from the competitive American motorsport landscape, Vanguard entered Formula S in 2015 with an innovative spirit and a focus on pushing the boundaries of racing technology. Under the leadership of tech mogul Michael Johnson, Vanguard has embraced cutting-edge technology and unconventional strategies to make its mark.",
+        "Vanguard's journey through the last five years in Formula S has been a story of gradual progress, marked by their first pole position and a growing reputation for strategic ingenuity. While still searching for their first win, Vanguard's trajectory points towards an exciting future in the sport."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/usa-flag.webp",
+          "alt": "united kingdom flag"
+        },
+        "team": {
+          "url": "./images/teams/vanguard.webp",
+          "alt": "vanguard racing group photo"
+        }
+      },
       "drivers": [
         {
           "name": "Aaron Wright",
           "number": 5,
-          "url": "./images/drivers/aaron-w",
+          "url": "./images/drivers/aaron-w.webp",
           "alt": "Aaron Wright headshot"
         },
         {
           "name": "Lee Kwang-Soo",
           "number": 8,
-          "url": "./images/drivers/lee-k",
+          "url": "./images/drivers/lee-k.webp",
           "alt": "Lee Kwang-Soo headshot"
         }
       ]
@@ -147,17 +217,31 @@
       "worldChampionshipsWon": 3,
       "polePositions": 48,
       "fastestLaps": 64,
+      "bio": [
+        "Crestwood is one of Formula S's most storied teams, founded in 1978 by British automotive pioneer Richard Crestwood. With a legacy built on innovation, resilience, and British engineering excellence, Crestwood quickly rose to prominence, clinching its first championship in the early '80s. Known for their iconic liveries and fiercely competitive spirit, Crestwood has been a mainstay in the sport, nurturing some of its greatest talents.",
+        "The past five years have been challenging for Crestwood, with the team undergoing significant restructuring and investment to return to the forefront of the grid. Despite these hurdles, Crestwood has demonstrated flashes of its former glory, securing several podium finishes and rekindling its competitive fire."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/uk-flag.webp",
+          "alt": "united kingdom flag"
+        },
+        "team": {
+          "url": "./images/teams/crestwood.webp",
+          "alt": "crestood group photo"
+        }
+      },
       "drivers": [
         {
           "name": "Jens Hoffmann",
           "number": 3,
-          "url": "./images/drivers/jens-h",
+          "url": "./images/drivers/jens-h.webp",
           "alt": "Jens Hoffmann headshot"
         },
         {
           "name": "Maria Jensen",
           "number": 9,
-          "url": "./images/drivers/maria-j",
+          "url": "./images/drivers/maria-j.webp",
           "alt": "Maria Jensen headshot"
         }
       ]
@@ -174,17 +258,31 @@
       "worldChampionshipsWon": 0,
       "polePositions": 12,
       "fastestLaps": 19,
+      "bio": [
+        "Ashford embodies the precision and luxury synonymous with Swiss engineering. Founded in 1992 by a consortium of Swiss investors and engineers, Ashford's entry into Formula S was marked by a commitment to technological innovation and a sustainable approach to racing. Though yet to secure a championship, Ashford has built a reputation for reliability, efficiency, and a clean racing style.",
+        "In recent seasons, Ashford has focused on developing its power unit and aerodynamics package, yielding steady improvement in race pace and efficiency. The team's efforts culminated in a breakthrough victory last season, signalling Ashford's potential rise as a championship contender."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/switzerland-flag.webp",
+          "alt": "switzerland flag"
+        },
+        "team": {
+          "url": "./images/teams/ashford.webp",
+          "alt": "ashford group photo"
+        }
+      },
       "drivers": [
         {
           "name": "Chris Green",
           "number": 4,
-          "url": "./images/drivers/chris-g",
+          "url": "./images/drivers/chris-g.webp",
           "alt": "Chris Green headshot"
         },
         {
           "name": "Connor Murphy",
           "number": 2,
-          "url": "./images/drivers/connor-m",
+          "url": "./images/drivers/connor-m.webp",
           "alt": "Connor Murphy headshot"
         }
       ]
@@ -201,17 +299,31 @@
       "worldChampionshipsWon": 1,
       "polePositions": 25,
       "fastestLaps": 37,
+      "bio": [
+        "Founded at the dawn of the new millennium by American entrepreneur and racing enthusiast James Everhart, Everhart Racing brought a fresh perspective to Formula S. Combining American ingenuity with a passion for speed, Everhart Racing quickly made a name for itself, capturing its first world championship within a decade. The team is celebrated for its pioneering spirit and commitment to pushing the boundaries of performance and sustainability in motorsport.",
+        "The last five years have been a period of intense development for Everhart Racing, focusing on aerodynamic efficiency and hybrid powertrain advancements. This period of growth paid dividends with multiple race wins and consistent performances, establishing Everhart as a formidable force in the championship battle."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/usa-flag.webp",
+          "alt": "america flag"
+        },
+        "team": {
+          "url": "./images/teams/everhart.webp",
+          "alt": "everhart racing group photo"
+        }
+      },
       "drivers": [
         {
           "name": "Andre Lefevre",
           "number": 7,
-          "url": "./images/drivers/andre-l",
+          "url": "./images/drivers/andre-l.webp",
           "alt": "Andre Lefevre headshot"
         },
         {
           "name": "Hiroshi Tanaka",
           "number": 11,
-          "url": "./images/drivers/hiroshi-t",
+          "url": "./images/drivers/hiroshi-t.webp",
           "alt": "Hiroshi Tanaka headshot"
         }
       ]
@@ -228,17 +340,31 @@
       "worldChampionshipsWon": 4,
       "polePositions": 53,
       "fastestLaps": 70,
+      "bio": [
+        "Ravenstone's origins trace back to 1980, born from the vision of German automotive genius Lukas Schmidt. Known for their meticulous attention to detail and engineering prowess, Ravenstone quickly ascended the ranks of Formula S, capturing their first championship in the late '80s. The team's cars, adorned with their signature raven black and silver livery, have become icons of the sport, embodying speed, precision, and elegance.",
+        "Ravenstone has remained at the pinnacle of Formula S racing through consistent innovation and a deep understanding of aerodynamics and powertrain efficiency. In the past five years, the team has continued to challenge for championships, adding to their legacy with victories that showcase their technical excellence and strategic mastery."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/german-flag.webp",
+          "alt": "german flag"
+        },
+        "team": {
+          "url": "./images/teams/ravenstone.webp",
+          "alt": "ravenstone group photo"
+        }
+      },
       "drivers": [
         {
           "name": "Miguel Santos",
           "number": 18,
-          "url": "./images/drivers/miguel-s",
+          "url": "./images/drivers/miguel-s.webp",
           "alt": "Miguel Santos headshot"
         },
         {
           "name": "Santiago Rivera",
           "number": 16,
-          "url": "./images/drivers/santiago-r",
+          "url": "./images/drivers/santiago-r.webp",
           "alt": "Santiago Rivera headshot"
         }
       ]
@@ -255,17 +381,31 @@
       "worldChampionshipsWon": 0,
       "polePositions": 8,
       "fastestLaps": 15,
+      "bio": [
+        "Redwood, named after the towering and resilient trees native to its Californian home, reflects a commitment to innovation, sustainability, and the pioneering spirit of Silicon Valley. Founded in 2010 by tech entrepreneur Thomas Redwood, the team entered Formula S with a mission to revolutionize the sport through sustainable racing technologies. Redwood is known for its groundbreaking work in electric powertrain development and eco-friendly race operations, setting new standards for environmental responsibility in high-speed motorsport.",
+        "Over the past five years, Redwood has made significant strides in competitive performance, driven by advancements in electric-hybrid technology and sustainable race practices. While still on the hunt for their first grand prix victory, Redwood's consistent improvement and commitment to innovation have earned them a respected place in the paddock. Their journey represents not just a quest for racing success but a vision for the future of the sport."
+      ],
+      "images": {
+        "flag": {
+          "url": "./images/flags/usa-flag.webp",
+          "alt": "america flag"
+        },
+        "team": {
+          "url": "./images/teams/redwood.webp",
+          "alt": "redwood racing team photo"
+        }
+      },
       "drivers": [
         {
           "name": "Liam Taylor",
           "number": 13,
-          "url": "./images/drivers/liam-t",
+          "url": "./images/drivers/liam-t.webp",
           "alt": "Liam Taylor headshot"
         },
         {
           "name": "Finn Larsen",
           "number": 14,
-          "url": "./images/drivers/finn-l",
+          "url": "./images/drivers/finn-l.webp",
           "alt": "Finn Larsen headshot"
         }
       ]

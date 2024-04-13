@@ -1,7 +1,7 @@
 
-const FullSection = ({ className, ariaHidden, children }) => {
+const FullSection = ({ className, ariaHidden, children, id }) => {
   return (
-    <section className={className} >{children}</section>
+    <section id={id} className={className} >{children}</section>
   )
 }
 

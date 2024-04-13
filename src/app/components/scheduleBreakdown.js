@@ -4,9 +4,8 @@ import sb from "../css/card.module.css"
 const ScheduleBreakdown = ({ object, sectionIndex, className }) => {
 
   return (
-    object && (
+    <>
       <section key={`session${sectionIndex}`} className={className}>
-        <h3>schedule</h3>
         {
           object.sessions.map((session, j) => (
             <section key={`session${j}`} className={sb.session}>
@@ -28,8 +27,9 @@ const ScheduleBreakdown = ({ object, sectionIndex, className }) => {
           <p key={`race-time ${sectionIndex}`}>{handleTime(object.race.date)}</p>
         </section>
       </section >
-    )
+    </>
   );
+
 }
 
 export default ScheduleBreakdown 

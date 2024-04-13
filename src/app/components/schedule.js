@@ -4,12 +4,15 @@ import ScheduleBreakdown from "./scheduleBreakdown"
 import scheduleJson from "../json/scheduleData.json"
 import cardStyle from "../css/card.module.css"
 import { dateFromTo } from "../js/dateTime.mjs"
+import ResultsBreakdown from "./resultsBreakdown"
+import Image from "next/image"
+import StatusChecker from "./statusChecker"
 
 const ScheduleCards = () => {
 
   return (
     <>
-      <CardContainer objectPath={scheduleJson.schedule}>
+      <CardContainer page={"schedule"}>
 
         {scheduleJson.schedule.map((race, i) => (
 
@@ -24,7 +27,7 @@ const ScheduleCards = () => {
 
             <section className={cardStyle.cardHeader}>
               <h2>{race.country.name}</h2>
-              <img className={cardStyle.flag} src={race.country.image.url} />
+              <img className={cardStyle.flag} src={`/${race.country.image.url}`} alt={race.country.image.alt} />
               {/*displays date from - to (29 - 02)*/}
               <p className={cardStyle.dates}>{dateFromTo(race.sessions[0].date, race.race.date)}</p>
               <p className={cardStyle.round}>{`Round ${race.round}`}</p>
@@ -33,15 +36,28 @@ const ScheduleCards = () => {
             <section className={cardStyle.trackInfo}>
               <h3>{race.trackInfo.location}</h3>
               <p>{race.trackInfo.name}</p>
-              <img src={race.trackInfo.image.url} alt={race.trackInfo.image.alt} /> {/*track image*/}
+              <Image width={100} height={100} src={`/${race.trackInfo.image.url}`} alt={race.trackInfo.image.alt} /> {/*track image*/}
             </section>
 
-            <ScheduleBreakdown
-              object={race}
-              sectionIndex={i}
-              className={cardStyle.scheduleDetails}
-            />
-            <img className={cardStyle.backgroundImage} src={race.backgroundImage.url} alt={race.backgroundImage.alt} /> {/*background image*/}
+            <section className={cardStyle.scheduleContainer}>
+              <StatusChecker
+                objState={race.status}
+                itemState={"pending"}
+                trueElements={<>
+                  <h3>schedule</h3>
+                  <ScheduleBreakdown object={race} sectionIndex={i} className={cardStyle.scheduleDetails} />
+                </>}
+                falseElements={<>
+                  <h3>Results</h3>
+                  <ResultsBreakdown
+                    object={race}
+                    sectionIndex={i}
+                    className={cardStyle.scheduleDetails} />
+                </>}
+              />
+            </section>
+
+            <Image priority={true} loading={"eager"} width={1024} height={1024} className={cardStyle.backgroundImage} src={`/${race.backgroundImage.url}`} alt={race.backgroundImage.alt} /> {/*background image*/}
           </Card>
         ))}
 

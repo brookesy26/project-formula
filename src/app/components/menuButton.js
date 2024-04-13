@@ -1,7 +1,7 @@
-const MenuButton = ({ onClick, className }) => {
+const MenuButton = ({ onClick, className, expandedState }) => {
 
   return (
-    <button className={className} onClick={onClick}><div></div></button>
+    <button type="button" aria-label="main navigation" aria-expanded={expandedState} className={className} onClick={onClick}><div></div></button>
   )
 }
 

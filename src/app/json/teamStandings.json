@@ -1,0 +1,44 @@
+{
+  "standings": [
+    {
+      "name": "Sorrento Motors",
+      "points": 97
+    },
+    {
+      "name": "Purple Whale Racing",
+      "points": 87
+    },
+    {
+      "name": "Vittori Autosport",
+      "points": 84
+    },
+    {
+      "name": "Ravenstone",
+      "points": 71
+    },
+    {
+      "name": "Everhart Racing",
+      "points": 55
+    },
+    {
+      "name": "Meridian",
+      "points": 11
+    },
+    {
+      "name": "Redwood Racing",
+      "points": 0
+    },
+    {
+      "name": "Vanguard Racing",
+      "points": 0
+    },
+    {
+      "name": "Crestwood",
+      "points": 0
+    },
+    {
+      "name": "Ashford",
+      "points": 0
+    }
+  ]
+}

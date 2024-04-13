@@ -1,0 +1,104 @@
+{
+  "standings": [
+    {
+      "name": "Marco Bianchi",
+      "team": "Sorrento Motors",
+      "points": 77
+    },
+    {
+      "name": "Miguel Santos",
+      "team": "Ravenstone",
+      "points": 71
+    },
+    {
+      "name": "Alexander Rossi",
+      "team": "Purple Whale Racing",
+      "points": 53
+    },
+    {
+      "name": "Andre Lefevre",
+      "team": "Everhart Racing",
+      "points": 49
+    },
+    {
+      "name": "Ted Atwood",
+      "team": "Purple Whale Racing",
+      "points": 34
+    },
+    {
+      "name": "Remy Dubois",
+      "team": "Vittori Autosport",
+      "points": 38
+    },
+    {
+      "name": "Lucas Weber",
+      "team": "Vittori Autosport",
+      "points": 46
+    },
+    {
+      "name": "Sergio Martinez",
+      "team": "Sorrento Motors",
+      "points": 20
+    },
+    {
+      "name": "Finn Jackson",
+      "team": "Meridian",
+      "points": 9
+    },
+    {
+      "name": "Hiroshi Tanaka",
+      "team": "Everhart Racing",
+      "points": 6
+    },
+    {
+      "name": "Oliver Huber",
+      "team": "Meridian",
+      "points": 2
+    },
+    {
+      "name": "Jens Hoffmann",
+      "team": "Crestwood",
+      "points": 0
+    },
+    {
+      "name": "Liam Taylor",
+      "team": "Redwood Racing",
+      "points": 0
+    },
+    {
+      "name": "Finn Larsen",
+      "team": "Redwood Racing",
+      "points": 0
+    },
+    {
+      "name": "Aaron Wright",
+      "team": "Vanguard Racing",
+      "points": 0
+    },
+    {
+      "name": "Maria Jansen",
+      "team": "Crestwood",
+      "points": 0
+    },
+    {
+      "name": "Connor Murphy",
+      "team": "Ashford",
+      "points": 0
+    },
+    {
+      "name": "Santiago Rivera",
+      "team": "Ravenstone",
+      "points": 0
+    },
+    {
+      "name": "Chris Green",
+      "team": "Ashford",
+      "points": 0
+    },
+    {
+      "name": "Lee Kwang-Soo",
+      "team": "Vanguard Racing",
+      "points": 0
+    }
+  ]
+}

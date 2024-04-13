@@ -47,7 +47,14 @@
 
 :root {
   --primary-text-color: #000000;
-  --secondary-text-color: #ffffff;
+  --secondary-text-color: #f5f7f8;
+
+  --primary-dark-color: #000000;
+  --primary-light-color: #f5f7f8;
+
+  --primary-red: #D91818;
+  --light-red: #ffe7ea;
+
   --card-scale: 0.7;
   --h3-small: 1.25rem;
   --text-small: 0.9rem;
@@ -67,8 +74,25 @@ html {
   margin: 0;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "bebas";
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: clamp(2rem, 4svw, 8svw);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Titillium Web";
+  font-size: 1rem;
 }
 
 body {
@@ -77,6 +101,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
+  gap: 1.5em;
   position: relative;
 }
 
@@ -110,7 +135,15 @@ body::-webkit-scrollbar {
 #card8,
 #card9,
 #card10,
-#card11 {
+#card11,
+#card12,
+#card13,
+#card14,
+#card15,
+#card16,
+#card17,
+#card18,
+#card19 {
   transform: translate3d(0px, 0px, 0px);
   scale: var(--card-scale);
 }
@@ -151,9 +184,45 @@ body::-webkit-scrollbar {
   z-index: -1;
 }
 
+#card12 {
+  z-index: -2;
+}
+
+#card13 {
+  z-index: -3;
+}
+
+#card14 {
+  z-index: -4;
+}
+
+#card15 {
+  z-index: -5;
+}
+
+#card15 {
+  z-index: -6;
+}
+
+#card16 {
+  z-index: -7;
+}
+
+#card17 {
+  z-index: -8;
+}
+
+#card18 {
+  z-index: -9;
+}
+
+#card19 {
+  z-index: -10;
+}
+
 /* Nav start*/
 nav {
-  height: auto;
+  height: 40px;
   width: 100%;
   position: fixed;
   z-index: 15;

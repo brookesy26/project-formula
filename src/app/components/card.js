@@ -8,9 +8,7 @@ const Card = ({ id, testId, children, className, href, pageId }) => {
   return (
     <section id={id} className={className} data-testid={testId}>
 
-      <Link href={{
-        pathname: `${href}/${pageId.id}`,
-      }}>
+      <Link href={`${href}/${pageId.id}`} scroll={false}>
 
         {children}
 

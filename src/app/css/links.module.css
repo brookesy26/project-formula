@@ -11,3 +11,57 @@
   justify-content: center;
   align-items: center;
 }
+
+body .activePage {
+  color: var(--primary-red);
+  transition: color 0.3s linear;
+  position: relative;
+}
+
+.activePage::after,
+.activePage::before {
+  display: block;
+  position: absolute;
+  color: var(--primary-red);
+  top: 0;
+}
+
+.activePage::before {
+  content: ">";
+  left: -25%;
+  animation: activeAnimationLeft 1s ease infinite;
+}
+
+.activePage::after {
+  content: "<";
+  right: -25%;
+  animation: activeAnimationRight 1s ease infinite;
+}
+
+@keyframes activeAnimationLeft {
+  0% {
+    left: -25%;
+  }
+
+  50% {
+    left: -30%;
+  }
+
+  100% {
+    left: -25%;
+  }
+}
+
+@keyframes activeAnimationRight {
+  0% {
+    right: -25%;
+  }
+
+  50% {
+    right: -30%;
+  }
+
+  100% {
+    right: -25%;
+  }
+}

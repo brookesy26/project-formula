@@ -3,13 +3,18 @@ import containerStyle from "../css/cards.module.css"
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import scheduleAnimationSequence from "../js/scheduleAni";
+import teamAnimationSequence from "../js/teamAni";
+import driverAnimationSequence from "../js/driversAni";
+
 
 gsap.registerPlugin(useGSAP);
 
-const CardContainer = ({ children }) => {
+const CardContainer = ({ children, page }) => {
 
   useGSAP(() => {
-    scheduleAnimationSequence()
+    if (page == "schedule") scheduleAnimationSequence();
+    if (page == "teams") teamAnimationSequence();
+    if (page == "drivers") driverAnimationSequence();
   });
 
   return (

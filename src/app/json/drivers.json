@@ -4,11 +4,23 @@
       "id": 1,
       "team": "Vittori Autosport",
       "name": "Alexander Rossi",
-      "image": {
-        "url": "./images/drivers/alexander-rossi.jpg",
-        "alt": "Alexander Rossi headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/italy-flag.webp",
+          "alt": "italy flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/alex-r.webp",
+          "alt": "Alexander Rossi headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Alexander Rossi, hailing from the historic city of Rome, Italy, has etched his name in the annals of Formula S Racing as one of the sport's most talented and determined drivers. Born on March 15, 1991, Rossi's journey into the world of high-speed racing began at a young age, inspired by the rich motorsport heritage of his home country. Standing tall at 182 cm, Rossi combines physical fitness with mental acuity, making him a formidable presence on the track.",
+        "Rossi's entry into Formula S was met with great anticipation. Since his debut, he has competed in 97 Grand Prix, amassing 1024 points, a testament to his consistency and skill. With 18 podium finishes to his name, Rossi has frequently showcased his ability to compete at the highest level, culminating in a world championship victory that solidified his status as one of the sport's elites.",
+        "His first victory was a defining moment in Rossi's career, demonstrating not only his racing prowess but also his strategic mind, capable of out-manoeuvring his competitors in the heat of the moment. Rossi's highest grid position, starting first, is a further testament to his exceptional speed and ability to handle the immense pressure that comes with leading the pack.",
+        "Off the track, Rossi is known for his dedication to the sport, spending countless hours with his team, and fine-tuning his vehicle to perfection. His date of birth and place of birth are not merely details of his life but markers of a legacy in the making, with Rossi representing the passion and drive of Italian motorsport on the global stage.",
+        "As Rossi continues to compete, his sights are set on further world championships, aiming to add more victories to his already impressive record. His journey from the historic streets of Rome to the pinnacle of Formula S Racing is a testament to his unwavering determination, talent, and the spirit of competition that defines the heart of a champion."
+      ],
       "height": "182 cm",
       "number": 5,
       "dob": "1991-03-15",
@@ -24,11 +36,23 @@
       "id": 2,
       "team": "Meridian",
       "name": "Lucas Weber",
-      "image": {
-        "url": "./images/drivers/lucas-weber.jpg",
-        "alt": "Lucas Weber headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/german-flag.webp",
+          "alt": "german flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/lucas-w.webp",
+          "alt": "Lucas Weber headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Lucas Weber, the German racing sensation, has made a significant impact in Formula S Racing with his remarkable skill and tenacity. Born on June 22, 1994, in Stuttgart, Germany, a city renowned for its automotive industry, Weber's passion for racing was ignited at a young age. Standing at 178 cm, Weber combines his keen physical agility with a sharp racing intellect, making him a standout competitor on the track.",
+        "Entering the high-stakes world of Formula S Racing, Weber quickly established himself as a force to be reckoned with. Throughout his career, he has participated in 85 Grand Prix, amassing a total of 876 points. This impressive tally is a testament to his consistency, skill, and dedication to the sport. Weber has achieved 12 podium finishes, consistently proving his mettle against the best in the field.",
+        "Weber's career highlights include a remarkable first-place finish, showcasing his ability to dominate under pressure and secure victory. Additionally, his prowess in qualifying has seen him achieve the highest grid position of 1st, further emphasizing his speed and precision when it counts the most.",
+        "Off the circuit, Weber is known for his meticulous approach to preparation and strategy, working closely with his team to extract every ounce of performance from his car. His birthplace, Stuttgart, is not just a footnote in his biography but a symbol of his deep connection to Germany's rich racing heritage and automotive excellence.",
+        "As Lucas Weber continues to compete in Formula S Racing, his ambition is not only to add more podium finishes to his name but also to clinch a world championship. With his remarkable talent and unyielding determination, Weber's journey in motorsport is a compelling story of passion, precision, and the pursuit of greatness on the global stage."
+      ],
       "height": "178 cm",
       "number": 17,
       "dob": "1994-06-22",
@@ -44,11 +68,23 @@
       "id": 3,
       "team": "Ravenstone",
       "name": "Miguel Santos",
-      "image": {
-        "url": "./images/drivers/miguel-santos.jpg",
-        "alt": "Miguel Santos headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/brazil-flag.webp",
+          "alt": "brazil flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/miguel-s.webp",
+          "alt": "miguel santos headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Miguel Santos, Brazil's pride in the realm of Formula S Racing, has emerged as one of the sport's most electrifying talents. Born on September 9, 1988, in the bustling metropolis of São Paulo, Santos's journey to the apex of motorsport is a tale of relentless passion, skill, and the vibrant spirit of Brazilian racing culture. At 175 cm, Santos combines his agile physique with a profound mental resilience, traits that have propelled him to the forefront of the racing world.",
+        "Since his debut, Santos has graced the Formula S circuit in 110 Grand Prix, a testament to his enduring presence and competitiveness in the sport. Accumulating an impressive 1348 points over his career, Santos has not only demonstrated his consistency but also his prowess in clinching victories, highlighted by his 20 podium finishes. These achievements are underscored by his two world championship titles, marking him as a formidable force in the racing community.",
+        "Santos's capability to consistently finish at the top, including achieving the highest race finish of 1st, showcases his exceptional talent and strategic acumen on the track. His remarkable ability to secure the highest grid position of 1st further emphasizes his speed and mastery in navigating the complexities of Formula S racing.",
+        "Off the track, Santos is celebrated for his commitment to excellence and his vibrant personality, endearing him to fans around the globe. His roots in São Paulo not only shaped his competitive edge but also instilled a deep sense of pride and representation for Brazil on the international stage.",
+        "Miguel Santos continues to chase glory in Formula S Racing, driven by the dream of securing more world championships and solidifying his legacy as one of the greatest drivers in the sport's history. His journey from São Paulo to the summit of Formula S Racing embodies the spirit of determination, excellence, and the relentless pursuit of victory."
+      ],
       "height": "175 cm",
       "number": 12,
       "dob": "1988-09-09",
@@ -64,11 +100,23 @@
       "id": 4,
       "team": "Purple Whale Racing",
       "name": "Ted Atwood",
-      "image": {
-        "url": "./images/drivers/ted-atwood.jpg",
-        "alt": "Ted Atwood headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/uk-flag.webp",
+          "alt": "uk flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/ted-a.webp",
+          "alt": "Alexander Rossi headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Ted Atwood, hailing from the United Kingdom, stands as a testament to British precision and resilience in the competitive arena of Formula S Racing. Born on April 10, 1993, in London, Atwood's early fascination with motorsports was nurtured in a country deeply entrenched in racing history. At a height of 180 cm, he blends his physical prowess with a sharp intellect, making him a formidable opponent on any given race day.",
+        "Entering the Formula S circuit with determination, Atwood has participated in 92 Grand Prix, showcasing his talent and determination to succeed at the highest level. With a career tally of 957 points, Atwood's consistency and ability to secure vital points for his team have been remarkable. His racing journey is highlighted by 15 podium finishes, reflecting his skill in navigating the complexities of the sport and competing with the best.",
+        "Atwood's racing career is punctuated by significant milestones, including a highest race finish of 1st place, demonstrating his capability to lead from the front and seize victory under intense pressure. Additionally, achieving the highest grid position of 1st underlines his speed and mastery over single-lap performance, setting the stage for his success in races.",
+        "Off the circuit, Atwood is known for his meticulous preparation and analytical approach to racing, always seeking to refine his strategy and car setup in collaboration with his team. His roots in London have imbued him with a blend of traditional British determination and a modern, innovative approach to racing, making him a popular figure among fans and a respected competitor among his peers.",
+        "Ted Atwood continues his quest for excellence in Formula S Racing with the goal of adding more victories and, ultimately, a world championship title to his name. His journey from the streets of London to the global stage of Formula S Racing embodies the essence of dedication, skill, and the relentless pursuit of greatness in the face of fierce competition."
+      ],
       "height": "180 cm",
       "number": 9,
       "dob": "1993-04-10",
@@ -84,11 +132,23 @@
       "id": 5,
       "team": "Redwood Racing",
       "name": "Finn Jackson",
-      "image": {
-        "url": "./images/drivers/finn-jackson.jpg",
-        "alt": "Finn Jackson headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/australia-flag.webp",
+          "alt": "australia flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/finn-j.webp",
+          "alt": "Finn Jackson headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Finn Jackson, Australia's standout in Formula S Racing, brings the spirit of the outback to the high-speed tracks around the world. Born on December 5, 1990, in Melbourne, Jackson's entry into the world of motorsport was almost predestined, given Australia's rich racing heritage. Standing at 188 cm, Jackson combines his imposing physical stature with a calm demeanour, a trait that has served him well in the high-stakes environment of Formula S.",
+        "With 77 Grand Prix under his belt, Jackson has accumulated 648 points through his career, showcasing not just his driving prowess but also his consistency and strategic acumen. His record includes 9 podium finishes, each a testament to his ability to challenge the frontrunners and capitalize on opportunities.",
+        "Jackson's career highlight, a 2nd place as his highest race finish, illustrates his competitive edge and his capacity to push the limits of his vehicle. Moreover, starting from the highest grid position of 2nd on multiple occasions underscores his qualifying speed and ability to tackle diverse track conditions.",
+        "Away from the track, Jackson is deeply involved in efforts to promote motorsport in Australia, mentoring young drivers and working to increase the sport's accessibility and appeal. His journey from Melbourne to becoming a recognizable figure in Formula S Racing is a source of inspiration, reflecting the dedication, hard work, and relentless pursuit of success.",
+        "As Finn Jackson continues his career in Formula S Racing, his aspirations remain high, with aims to increase his tally of podium finishes and ultimately clinch a victory. His journey encapsulates the grit and determination characteristic of Australian sports, making him a beloved figure among fans back home and around the globe."
+      ],
       "height": "188 cm",
       "number": 20,
       "dob": "1990-12-05",
@@ -104,11 +164,23 @@
       "id": 6,
       "team": "Vittori Autosport",
       "name": "Remy Dubois",
-      "image": {
-        "url": "./images/drivers/remy-dubois.jpg",
-        "alt": "Remy Dubois headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/france-flag.webp",
+          "alt": "france flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/remy-d.webp",
+          "alt": "Remy Dubois headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Remy Dubois emerges from France's storied tradition of motorsport excellence, carving his own path in the competitive world of Formula S Racing. Born into the vibrant city of Marseille on February 17, 1989, Dubois's passion for racing was ignited against the backdrop of France's rich racing heritage. With a height of 183 cm, he perfectly balances physical robustness with the agility needed for the high-octane demands of Formula S.",
+        "Throughout his journey in Formula S Racing, Dubois has taken part in 89 Grand Prix, amassing a commendable 822 points. His career is adorned with 14 podium finishes, each serving as a milestone in his relentless pursuit of racing glory. His achievements are highlighted by a world championship win, elevating him to the elite circle of drivers who have tasted the pinnacle of success in the sport.",
+        "Dubois's remarkable ability to secure victory, achieving the highest race finish of 1st, showcases his prowess on the track, while his skill in qualifying, demonstrated by attaining the highest grid position of 1st, underscores his speed and strategic acumen. These achievements not only reflect his skillset but also his deep understanding of the car and the nuances of each circuit.",
+        "Off the circuit, Dubois is known for his unwavering dedication to the sport, often seen collaborating closely with his team to push the boundaries of automotive technology. His roots in Marseille have instilled in him a blend of tenacity and a joie de vivre that resonates with fans worldwide, making him a beloved figure in and out of France.",
+        "As Remy Dubois continues to compete in Formula S Racing, his eyes are set on further championships, driven by an insatiable hunger for success and a dedication to maintaining his position at the forefront of the sport. His journey from the coastal charm of Marseille to international racing acclaim symbolizes the fusion of talent, determination, and the relentless pursuit of excellence that defines a true champion."
+      ],
       "height": "183 cm",
       "number": 15,
       "dob": "1989-02-17",
@@ -124,11 +196,23 @@
       "id": 7,
       "team": "Sorrento Motors",
       "name": "Sergio Martinez",
-      "image": {
-        "url": "./images/drivers/sergio-martinez.jpg",
-        "alt": "Sergio Martinez headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/spain-flag.webp",
+          "alt": "spain flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/sergio.webp",
+          "alt": "sergio martinez headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Sergio Martinez, Spain's pride in the Formula S Racing world, brings the fiery passion and technical finesse characteristic of his homeland to the forefront of international motorsport. Born on July 8, 1992, in the vibrant city of Barcelona, Martinez was nurtured in an environment rich with cultural heritage and a deep love for racing. His journey from the Catalan streets to the pinnacle of Formula S Racing is a testament to his unwavering dedication and skill. Standing at 177 cm, Martinez blends agility with a strategic mindset, making him a formidable contender on any track.",
+        "Throughout his career, Martinez has participated in 81 Grand Prix, amassing a total of 786 points. This impressive tally underscores his consistency and ability to compete at the highest level, with 11 podium finishes highlighting his capacity to seize opportunities and challenge the leading pack.",
+        "Martinez's career is marked by significant achievements, including his highest race finish of 2nd, showcasing his ability to battle for victory in the intensely competitive environment of Formula S Racing. His prowess is further evidenced by securing the highest grid position of 1st, demonstrating his speed and skill in navigating diverse qualifying conditions.",
+        "Off the track, Martinez is known for his commitment to advancing motorsport in Spain, working tirelessly to inspire the next generation of Spanish racers. His background in Barcelona not only shaped his competitive spirit but also instilled a sense of pride in representing his country on the global stage.",
+        "As Sergio Martinez continues to chase victory in Formula S Racing, his ambitions are clear: to stand atop the podium and claim a world championship title. His journey reflects the spirit of perseverance, technical brilliance, and the passionate pursuit of excellence that characterizes the essence of racing."
+      ],
       "height": "177 cm",
       "number": 8,
       "dob": "1992-07-08",
@@ -144,11 +228,23 @@
       "id": 8,
       "team": "Meridian",
       "name": "Oliver Huber",
-      "image": {
-        "url": "./images/drivers/oliver-huber.jpg",
-        "alt": "Oliver Huber headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/austria-flag.webp",
+          "alt": "austria flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/oliver-h.webp",
+          "alt": "Oliver huber headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Oliver Huber, representing Austria's storied legacy in motorsports, has rapidly ascended as a formidable presence in Formula S Racing. Born on October 3, 1995, in the historic city of Vienna, Huber's foray into racing was fuelled by Austria's rich racing culture and the inspiring performances of past Austrian champions. Standing at an impressive height of 184 cm, Huber melds his physical prowess with a razor-sharp focus, qualities that have propelled him into the spotlight on the Formula S stage.",
+        "Since making his debut, Huber has competed in 70 Grand Prix, amassing a total of 529 points. His journey in the high-speed world of Formula S Racing is adorned with 7 podium finishes, underscoring his talent and his relentless drive to compete at the apex of the sport. Though yet to clinch a world championship, Huber's achievements, including a highest race finish of 3rd, signal his potential to etch his name among the legends of the sport.",
+        "Huber's capacity to secure the highest grid position of 2nd further demonstrates his exceptional ability in both qualifying and racing scenarios, highlighting his strategic intellect and mastery of the car. His performances are a testament not only to his skill but also to his deep understanding of the dynamic and ever-evolving nature of Formula S Racing.",
+        "Away from the racetrack, Huber is celebrated for his commitment to excellence and his role as an ambassador for Austrian motorsport. His journey from Vienna to the international racing circuits embodies a dedication to his craft, a commitment to continuous improvement, and a passion for motorsport that resonates with fans and aspiring racers alike.",
+        "As Oliver Huber continues his pursuit of racing glory, his aspirations remain steadfast: to claim his first world championship and continue Austria's proud tradition in the global arena of Formula S Racing. His story is one of ambition, resilience, and the unyielding pursuit of success in the face of intense competition."
+      ],
       "height": "184 cm",
       "number": 13,
       "dob": "1995-10-03",
@@ -164,11 +260,23 @@
       "id": 9,
       "team": "Everhart Racing",
       "name": "Liam Taylor",
-      "image": {
-        "url": "./images/drivers/liam-taylor.jpg",
-        "alt": "Liam Taylor headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/canada-flag.webp",
+          "alt": "canada flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/liam-t.webp",
+          "alt": "Liam taylor headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Liam Taylor, Canada's rising star in the world of Formula S Racing, brings a refreshing blend of youthful energy and strategic prowess to the grid. Born on January 19, 1997, in Montreal, Taylor's path to Formula S was inspired by the vibrant motorsport culture of his homeland, particularly the legendary Canadian Grand Prix held in his hometown. With a towering stature of 190 cm, Taylor combines his physical advantage with a keen analytical mind, making him a notable contender in every race.",
+        "In his career thus far, Taylor has made his mark in 60 Grand Prix, accumulating 402 points. This achievement underscores his adaptability and consistent performance against the backdrop of Formula S's fiercely competitive environment. With 5 podium finishes to his name, Taylor has demonstrated his ability to capitalize on opportunities and challenge seasoned veterans for top honours.",
+        "Taylor's racing highlights include a highest race finish of 3rd, showcasing his capacity to navigate the complex dynamics of Formula S races and emerge as a frontrunner. His ability to secure the highest grid position of 3rd also highlights his prowess in extracting the maximum performance from his car when it matters most, during the intense moments of qualifying.",
+        "Off the track, Taylor is known for his dedication to promoting motorsport within Canada, engaging with fans, and working with young racers to nurture the next generation of talent. His journey from the streets of Montreal to the global Formula S stage is not just a personal achievement but a source of national pride, inspiring many Canadians to follow in his footsteps.",
+        "As Liam Taylor continues to build his career in Formula S Racing, his goals are clear: to stand atop the podium more frequently, to vie for a world championship, and to leave an indelible mark on the sport. His story is a testament to hard work, determination, and the relentless pursuit of greatness, characteristics that make him a beloved figure both in Canada and around the racing world."
+      ],
       "height": "190 cm",
       "number": 7,
       "dob": "1997-01-19",
@@ -184,11 +292,23 @@
       "id": 10,
       "team": "Everhart Racing",
       "name": "Hiroshi Tanaka",
-      "image": {
-        "url": "./images/drivers/hiroshi-tanaka.jpg",
-        "alt": "Hiroshi Tanaka headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/japan-flag.webp",
+          "alt": "japan flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/hiro-t.webp",
+          "alt": "hiroshi tanaka headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Hiroshi Tanaka, Japan's contribution to the pulsating world of Formula S Racing, combines the precision and discipline characteristic of his nation with an unquenchable thirst for speed. Born on May 23, 1986, in Tokyo, Tanaka's introduction to motorsport was fostered by Japan's rich automotive culture and its celebrated history in Formula S. Standing at 172 cm, he merges a compact and agile physique with a strategic mindset, positioning him as a formidable opponent on any racing circuit.",
+        "Throughout his tenure in Formula S Racing, Tanaka has participated in 76 Grand Prix, accruing a commendable 610 points. This tally reflects not only his skill and determination on the track but also his ability to consistently perform at a high level amidst the sport's intense competition. With 8 podium finishes, Tanaka has proven his mettle by competing head-to-head with the world's best drivers, showcasing his capacity to leverage opportunities and secure top finishes.",
+        "Tanaka's racing highlights are marked by a highest race finish of 2nd place, demonstrating his potential to lead and influence the race's outcome. Additionally, achieving the highest grid position of 1st highlights his exceptional talent in qualifying, setting the stage for competitive race performances.",
+        "Away from the racetrack, Tanaka is celebrated for his efforts to advance motorsport in Japan, contributing to the development of young talents and promoting Formula S Racing among Japanese fans. His journey from Tokyo to the global Formula S stage is emblematic of his pursuit of excellence, embodying the spirit of dedication and continuous improvement.",
+        "As Hiroshi Tanaka continues to challenge the limits in Formula S Racing, his objectives are straightforward: to claim his first victory, to add more podium finishes to his record, and to inspire the next generation of Japanese racing stars. His story resonates with persistence, innovation, and the pursuit of excellence, making him a respected figure in the sport and a source of inspiration back home in Japan."
+      ],
       "height": "172 cm",
       "number": 4,
       "dob": "1986-05-23",
@@ -204,11 +324,23 @@
       "id": 11,
       "team": "Redwood Racing",
       "name": "Finn Larsen",
-      "image": {
-        "url": "./images/drivers/finn-larsen.jpg",
-        "alt": "Finn Larsen headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/netherlands-flag.webp",
+          "alt": "netherlands flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/finn-l.webp",
+          "alt": "finn larsen headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Finn Larsen, Denmark's beacon in the exhilarating world of Formula S Racing, exemplifies the tenacity and cool-headedness characteristic of Danish athletes. Born on August 30, 1994, in Copenhagen, Larsen was immersed in a culture that values determination and excellence from a young age. His racing journey reflects not just personal ambition but also the collective spirit of a nation known for its achievements across various sports. With a height of 187 cm, Larsen combines his physical attributes with a tactical approach to racing, making him a noteworthy competitor in the field.",
+        "Over his career in Formula S Racing, Larsen has taken part in 53 Grand Prix, amassing a total of 367 points. This achievement underscores his capacity to adapt and excel in the sport's demanding environment. Larsen's career is highlighted by 4 podium finishes, a testament to his ability to navigate the complexities of racing at the highest level and secure top positions against stiff competition.",
+        "Larsen's resilience is further demonstrated by his highest race finish of 3rd place, showcasing his potential to challenge for wins and consistently perform at a high level. His capability to secure a highest grid position of 4th also illustrates his competence in delivering strong performances in qualifying, setting himself up for competitive races.",
+        "Beyond the race track, Larsen is known for his involvement in initiatives aimed at promoting motorsport in Denmark, inspiring young talents, and engaging with fans. His progression from the streets of Copenhagen to becoming a formidable force in Formula S Racing is a narrative of ambition, discipline, and the relentless pursuit of success.",
+        "As Finn Larsen continues his endeavours in Formula S Racing, his goals extend beyond personal achievements to include raising the profile of motorsport in Denmark and capturing his first Grand Prix victory. His story is one of perseverance, strategic intelligence, and the unyielding desire to excel on the international stage, making him a proud representative of Denmark in the global motorsport arena."
+      ],
       "height": "187 cm",
       "number": 22,
       "dob": "1994-08-30",
@@ -224,11 +356,24 @@
       "id": 12,
       "team": "Vanguard Racing",
       "name": "Aaron Wright",
-      "image": {
-        "url": "./images/drivers/aaron-wright.jpg",
-        "alt": "Aaron Wright headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/usa-flag.webp",
+          "alt": "america flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/aaron-w.webp",
+          "alt": "Aaron wright headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Aaron Wright stands as a shining example of American talent in the world of Formula S Racing. Born on March 27, 1996, in New York, USA, Wright's racing journey is a testament to the American dream—pursuing passion with relentless determination and the spirit of innovation. At 182 cm, Wright combines his athletic build with a sharp racing intellect, making him a formidable presence on any track.",
+        "Throughout his Formula S career, Wright has participated in 68 Grand Prix, showcasing his adaptability and competitiveness with a tally of 488 points. His career, marked by 6 podium finishes, illustrates his ability to rise to the occasion and deliver outstanding performances against the world's best drivers.",
+        "Wright's notable achievements include a highest race finish of 2nd place, demonstrating his capability to challenge for victories and contend with the front runners of the sport. Additionally, his highest grid position of 3rd underscores his prowess in navigating the complexities of qualifying to secure advantageous starting spots.",
+        "Off the circuit, Wright is known for his commitment to fostering the growth of motorsport in the United States, engaging in community outreach and youth development programs. His journey from the bustling streets of New York to competing on the global Formula S stage is a narrative of ambition, resilience, and the pursuit of excellence.",
+        "As Aaron Wright continues to carve out his legacy in Formula S Racing, his ambitions are clear: to secure his first Grand Prix win, to consistently challenge for podium finishes, and to inspire a new generation of American drivers. His story reflects the essence of competitive sportsmanship and the endless pursuit of greatness that defines the spirit of American athletes.",
+        "This series of driver biographies offers a glimpse into the diverse and rich tapestry of talent in Formula S Racing. Each driver's journey from their homeland to the pinnacle of motorsport underscores the universal appeal of racing and the personal dedication required to compete at the highest level."
+      ],
       "height": "182 cm",
       "number": 1,
       "dob": "1996-03-27",
@@ -244,11 +389,23 @@
       "id": 13,
       "team": "Crestwood",
       "name": "Maria Jansen",
-      "image": {
-        "url": "./images/drivers/maria-jansen.jpg",
-        "alt": "Maria Jansen headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/netherlands-flag.webp",
+          "alt": "netherlands flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/maria-j.webp",
+          "alt": "Maria Jansen headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Maria Jansen, a trailblazer from the Netherlands, has quickly risen through the ranks to make her mark on the Formula S Racing scene. Born on April 20, 1998, in Amsterdam, Jansen's racing career is a testament to her unyielding determination and the vibrant motorsport culture of her homeland. With a height of 176 cm, she combines agility with a strategic mindset, characteristics that have propelled her into the spotlight in a sport where precision and perseverance are paramount.",
+        "In her Formula S career, Jansen has competed in 57 Grand Prix, accumulating 321 points. This accomplishment not only highlights her skill and consistency on the track but also her ability to adapt and excel in the face of intense competition. Her career is punctuated by 3 podium finishes, demonstrating her capacity to battle with the sport's elite and secure top positions.",
+        "Jansen's racing achievements include a highest race finish of 4th place, showcasing her potential to vie for victory and her competitiveness against the most skilled drivers in the world. Moreover, her ability to achieve a highest grid position of 5th further emphasizes her talent in mastering the nuances of qualifying, setting herself up for strong performances in the races.",
+        "Off the track, Jansen is dedicated to promoting motorsport in the Netherlands and beyond, engaging with fans and working to inspire young girls to pursue their dreams in racing. Her journey from Amsterdam to competing on the global Formula S stage serves as an inspiring story of ambition, hard work, and the relentless pursuit of success.",
+        "As Maria Jansen continues to challenge the limits in Formula S Racing, her goals are firmly set on achieving her first Grand Prix victory and consistently finishing on the podium. Her story is not just about personal achievement but also about breaking barriers and inspiring a new generation to follow in her footsteps, embodying the spirit of determination and excellence."
+      ],
       "height": "176 cm",
       "number": 18,
       "dob": "1998-04-20",
@@ -264,11 +421,23 @@
       "id": 14,
       "team": "Sorrento Motors",
       "name": "Marco Bianchi",
-      "image": {
-        "url": "./images/drivers/marco-bianchi.jpg",
-        "alt": "Marco Bianchi headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/italy-flag.webp",
+          "alt": "italy flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/marco-b.webp",
+          "alt": "marco bianchi headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Marco Bianchi stands as Italy's latest contribution to the legacy of Formula S Racing, blending the country's rich automotive history with his innate racing prowess. Born on July 14, 1988, in Milan, a city synonymous with fashion and engineering excellence, Bianchi's path to the pinnacle of motorsport was paved with determination and a passion for speed. At 179 cm, his stature is matched by his capacity for strategic thinking and precision driving, making him a standout figure on the racing circuit.",
+        "Throughout his Formula S career, Bianchi has shown remarkable talent and consistency, participating in 99 Grand Prix and amassing an impressive 1052 points. His career is highlighted by 17 podium finishes, a clear indication of his ability to perform at the highest level against the sport's elite competitors. Bianchi's excellence is further underscored by his two world championship titles, marking him as a formidable force in the racing world.",
+        "Bianchi's career achievements include a highest race finish of 1st place, showcasing his ability to lead and dominate in the intensely competitive environment of Formula S Racing. His skill in securing the highest grid position of 1st further highlights his exceptional talent in navigating the intricacies of qualifying to position himself advantageously for race success.",
+        "Off the circuit, Bianchi is known for his commitment to advancing Italian motorsport, working tirelessly to inspire the next generation and contribute to the sport's development. His journey from the heart of Milan to the global stage of Formula S Racing is a testament to his unwavering dedication, skill, and the pursuit of excellence.",
+        "As Marco Bianchi continues his career in Formula S Racing, his ambitions remain clear: to secure more world championships and solidify his legacy as one of the greatest drivers in the history of the sport. His story is a narrative of passion, determination, and the continuous quest for greatness that defines the essence of Formula S Racing."
+      ],
       "height": "179 cm",
       "number": 19,
       "dob": "1988-07-14",
@@ -284,11 +453,23 @@
       "id": 15,
       "team": "Crestwood",
       "name": "Jens Hoffmann",
-      "image": {
-        "url": "./images/drivers/jens-hoffmann.jpg",
-        "alt": "Jens Hoffmann headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/german-flag.webp",
+          "alt": "italy flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/jens-h.webp",
+          "alt": "jens hoffmann headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Jens Hoffmann emerges from Germany, a nation renowned for its engineering prowess and racing heritage, as a formidable talent in Formula S Racing. Born on September 1, 1990, in Hamburg, Hoffmann's ascent in the world of high-speed motorsport is marked by his disciplined approach and relentless pursuit of perfection. With a height of 185 cm, his physical endurance is matched by a strategic mind, adept at navigating the complexities of race strategy and vehicle dynamics.",
+        "Hoffmann has taken part in 84 Grand Prix events, showcasing his skill and determination by scoring 746 points. This impressive tally reflects not only his driving ability but also his consistency and strategic thinking on the track. His career, adorned with 10 podium finishes, illustrates his capacity to challenge the sport's top contenders and secure top positions amidst intense competition.",
+        "Notably, Hoffmann's highest race finish is 1st place, a testament to his capability to lead from the front and command the race under high-pressure conditions. His achievement of securing the highest grid position of 1st further underscores his exceptional talent in extracting the maximum performance from his car during qualifying, setting the stage for his success in races.",
+        "Away from the track, Hoffmann is committed to contributing to the growth of motorsport in Germany, engaging in initiatives aimed at nurturing young talent and promoting the sport among a wider audience. His journey from the bustling port city of Hamburg to the global Formula S Racing stage is a narrative of ambition, hard work, and the relentless pursuit of excellence.",
+        "As Jens Hoffmann continues to compete in Formula S Racing, his goals extend beyond personal accolades; he aims to leave a lasting impact on the sport and inspire the next generation of racers. His story, characterized by precision, discipline, and a deep-rooted passion for racing, resonates with fans and aspiring drivers alike, making him a respected figure in the motorsport community."
+      ],
       "height": "185 cm",
       "number": 2,
       "dob": "1990-09-01",
@@ -304,11 +485,23 @@
       "id": 16,
       "team": "Ashford",
       "name": "Connor Murphy",
-      "image": {
-        "url": "./images/drivers/connor-murphy.jpg",
-        "alt": "Connor Murphy headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/ireland-flag.webp",
+          "alt": "ireland flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/connor-m.webp",
+          "alt": "Connor Murphy headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Connor Murphy, hailing from Ireland, brings a distinctive blend of tenacity and strategic insight to the world of Formula S Racing. Born on December 12, 1995, in Dublin, Murphy's journey to the apex of motorsport has been fuelled by a passion for speed and a deep-rooted desire to represent his nation on the international stage. At 178 cm, his physique is complemented by a mental agility that makes him a competitive force in the high-stakes environment of Formula S.",
+        "Murphy has participated in 49 Grand Prix, a testament to his emerging talent and steadfast determination in the fiercely competitive realm of Formula S Racing. Accumulating 254 points, his career is marked by resilience and a burgeoning skill set that promises much for the future. With 2 podium finishes to his name, Murphy has demonstrated his potential to vie with the sport's elite, showcasing his readiness to seize opportunities and deliver strong performances.",
+        "His highest race finish of 4th place underscores Murphy's ability to compete at the sharp end of the grid, reflecting his growth as a driver and his potential to challenge for race victories. Additionally, achieving the highest grid position of 6th highlights his capability in mastering the critical moments of qualifying, setting himself up for competitive race outings.",
+        "Beyond the racetrack, Murphy is dedicated to promoting motorsport in Ireland, engaging with the community and serving as an inspiration for young Irish talents aspiring to make their mark in racing. His story from Dublin to the international circuits of Formula S Racing embodies a journey of perseverance, strategic acumen, and the unyielding pursuit of excellence.",
+        "As Connor Murphy continues to hone his craft in Formula S Racing, his ambitions are squarely focused on achieving his first Grand Prix win and consistently finishing on the podium. His narrative is one of determination, strategic growth, and the passionate pursuit of success, marking him as a rising star in the sport and a source of pride for Ireland."
+      ],
       "height": "178 cm",
       "number": 21,
       "dob": "1995-12-12",
@@ -324,11 +517,23 @@
       "id": 17,
       "team": "Everhart Racing",
       "name": "Andre Lefevre",
-      "image": {
-        "url": "./images/drivers/andre-lefevre.jpg",
-        "alt": "Andre Lefevre headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/france-flag.webp",
+          "alt": "france flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/andre-l.webp",
+          "alt": "andre lefevre headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Andre Lefevre stands as a testament to French elegance and precision on the global stage of Formula S Racing. Born on February 25, 1987, in the cultural heart of France, Paris, Lefevre's path to racing excellence was paved with the rich motorsport heritage of his homeland. Standing at 174 cm, his agile frame is matched by an analytical approach to racing, making him a sophisticated strategist and a formidable opponent on the track.",
+        "Throughout his career in Formula S Racing, Lefevre has been a consistent force, participating in 87 Grand Prix and amassing a total of 889 points. This impressive achievement highlights his skill, determination, and ability to perform under pressure. With 13 podium finishes, Lefevre has proven his ability to compete with the best, consistently placing himself in contention for the top spots.",
+        "Lefevre's racing highlights include a world championship victory, marking him as one of the elite drivers capable of securing the highest accolade in the sport. His highest race finish of 1st and the ability to achieve the highest grid position of 1st further underscore his competitive edge and his mastery over the demanding conditions of Formula S Racing.",
+        "Off the circuit, Lefevre is known for his dedication to the sport and his efforts to inspire the next generation of French drivers. His journey from Paris to the pinnacle of Formula S Racing is not just a personal achievement but a continuation of France's legacy in motorsport. Lefevre embodies the spirit of perseverance, technical brilliance, and strategic mastery that are hallmarks of a true champion.",
+        "As Andre Lefevre continues to compete at the highest levels of Formula S Racing, his sights are set on adding more championships to his name and cementing his legacy as one of the sport's greats. His story is a compelling narrative of ambition, discipline, and the relentless pursuit of excellence that resonates with racing enthusiasts around the world."
+      ],
       "height": "174 cm",
       "number": 10,
       "dob": "1987-02-25",
@@ -344,11 +549,23 @@
       "id": 18,
       "team": "Ravenstone",
       "name": "Santiago Rivera",
-      "image": {
-        "url": "./images/drivers/santiago-rivera.jpg",
-        "alt": "Santiago Rivera headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/mexico-flag.webp",
+          "alt": "mexico flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/santiago-r.webp",
+          "alt": "santiago rivera headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Santiago Rivera, emerging from Mexico, carries the vibrant spirit and determination of his country into the heart of Formula S Racing. Born on June 17, 1992, in the bustling metropolis of Mexico City, Rivera's passion for motorsport was kindled amidst the rich cultural and sporting traditions of his homeland. At 170 cm, he combines a compact and dynamic physique with a fierce competitive drive, positioning him as a spirited contender in the demanding world of Formula S.",
+        "Rivera has competed in 73 Grand Prix, amassing a total of 562 points throughout his career. This tally is a testament to his resilience, skill, and adaptability, showcasing his ability to secure significant results in a highly competitive field. With 7 podium finishes to his credit, Rivera has demonstrated his capacity to challenge the sport's elite, underscored by his potential to excel and secure top positions.",
+        "One of Rivera's career highlights includes achieving a highest race finish of 2nd place, illustrating his ability to navigate the complexities of Formula S races and emerge as a leader. Additionally, his capability to secure the highest grid position of 2nd highlights his excellence in qualifying, setting the stage for strong race-day performances.",
+        "Beyond the track, Rivera is passionate about promoting motorsport in Mexico, contributing to the development of young talents and increasing the sport's popularity among the Mexican audience. His journey from the heart of Mexico City to the global Formula S Racing scene is a story of ambition, hard work, and the relentless pursuit of success.",
+        "As Santiago Rivera continues his career in Formula S Racing, his goals remain ambitious: to clinch his first Grand Prix victory and consistently vie for podium finishes. His narrative is one of perseverance, strategic intelligence, and the passionate pursuit of excellence, making him a proud representative of Mexico in the international motorsport arena."
+      ],
       "height": "170 cm",
       "number": 11,
       "dob": "1992-06-17",
@@ -364,11 +581,23 @@
       "id": 19,
       "team": "Ashford",
       "name": "Chris Green",
-      "image": {
-        "url": "./images/drivers/chris-green.jpg",
-        "alt": "Chris Green headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/canada-flag.webp",
+          "alt": "canada flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/chris-g.webp",
+          "alt": "chris green headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Chris Green, representing Canada on the Formula S Racing circuit, exemplifies the blend of youthful exuberance and calculated precision that marks the next generation of racing talents. Born on March 3, 1999, in Toronto, Canada's bustling metropolis, Green's ascendancy in motorsports is fuelled by a passion ignited in the vibrant racing culture of his homeland. Standing at an impressive height of 188 cm, his physical stature is matched by a keen intellect for race strategy and vehicle dynamics.",
+        "Having participated in 41 Grand Prix, Green has quickly made a name for himself, accumulating 198 points in the process. This achievement underscores his burgeoning talent and his capacity to adapt swiftly to the rigors of Formula S Racing. Though his podium finishes may be few, with 1 to his name, it signifies the onset of a promising career that is poised for growth.",
+        "Green's highest race finish to date is 5th place, a commendable feat that showcases his potential to compete among the sport's more seasoned racers. Furthermore, achieving the highest grid position of 7th emphasizes his capability in mastering the car under the high-pressure environment of qualifying, setting a solid foundation for competitive performances in the races.",
+        "Beyond his on-track endeavours, Green is actively involved in promoting motorsport within Canada, participating in events aimed at inspiring young Canadians to pursue their dreams in racing. His journey from Toronto to the international stages of Formula S Racing serves as an inspiring testament to determination, skill, and the drive to succeed against the odds.",
+        "As Chris Green continues to carve out his path in Formula S Racing, his sights are set on achieving his first Grand Prix win, consistently securing podium finishes, and contributing to the growth of motorsport in Canada. His story, marked by ambition and a relentless pursuit of racing excellence, positions him as one of the promising talents to watch in the coming years of Formula S Racing."
+      ],
       "height": "188 cm",
       "number": 16,
       "dob": "1999-03-03",
@@ -384,11 +613,23 @@
       "id": 20,
       "team": "Ashford",
       "name": "Lee Kwang-Soo",
-      "image": {
-        "url": "./images/drivers/lee-kwang-soo.jpg",
-        "alt": "Lee Kwang-Soo headshot"
+      "images": {
+        "flag": {
+          "url": "./images/flags/korea-flag.webp",
+          "alt": "south korea flag"
+        },
+        "headshot": {
+          "url": "./images/drivers/lee-k.webp",
+          "alt": "lee kwang-soo headshot"
+        }
       },
-      "bio": "",
+      "bio": [
+        "Lee Kwang-Soo, South Korea's pride in Formula S Racing, brings a unique blend of determination and precision to the high-speed world of motorsport. Born on November 14, 1993, in Seoul, his journey to Formula S Racing is a testament to the global appeal of the sport and the diverse pathways competitors take to reach its pinnacle. At 180 cm, Lee combines his height with agility and a focused mindset, essential attributes for navigating the intense competition of Formula S.",
+        "Lee has participated in 55 Grand Prix, demonstrating his ability to adapt and grow within the highly competitive environment of Formula S Racing. Accumulating 305 points throughout his career, Lee's journey is marked by consistent performances and an unwavering dedication to improvement. With 3 podium finishes, he has showcased his potential to challenge the sport's established names and vie for top honours.",
+        "His highest race finish of 3rd place highlights Lee's capability to compete at the forefront of races, navigating the strategic complexities of Formula S Racing to secure strong finishes. Moreover, achieving the highest grid position of 4th underscores his prowess in qualifying, setting the stage for competitive outings and reinforcing his status as a rising talent in the sport.",
+        "Off the track, Lee is passionate about elevating the profile of motorsport in South Korea, engaging with fans and aspiring racers alike to inspire a new generation of talent. His progression from the streets of Seoul to the international Formula S circuit encapsulates a story of ambition, resilience, and the pursuit of excellence.",
+        "As Lee Kwang-Soo continues his endeavours in Formula S Racing, his objectives are clear: to secure his first Grand Prix victory, consistently finish on the podium, and leave an indelible mark on the sport. His narrative is not just one of personal achievement but also of contributing to the growth of motorsport in South Korea, embodying the spirit of perseverance and excellence."
+      ],
       "height": "180 cm",
       "number": 3,
       "dob": "1993-11-14",

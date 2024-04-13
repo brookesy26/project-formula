@@ -1,8 +1,8 @@
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
-import Page from '../src/app/page'
+import Page from "@/app/page"
 
-describe('Page', () => {
+describe('schedule page', () => {
 
   it('main h1 heading is on page', () => {
     render(<Page />)

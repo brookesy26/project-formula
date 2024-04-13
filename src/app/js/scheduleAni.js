@@ -40,6 +40,7 @@ export default function scheduleAnimationSequence() {
     }
   })
 
+
   moveOut(tl, "#card0");
   FadeIn(tl, "#card3")
 

@@ -14,10 +14,20 @@
       "trackInfo": {
         "name": "Bahrain International Circuit",
         "location": "Sakhir",
+        "bio": [
+          "The Al-Zallaq Speedway, nestled in the heart of Bahrain, stands as a monument to the speed and spirit of Formula A Racing. Since its inauguration in 2004, this circuit has been a cornerstone of the racing calendar, offering a unique blend of technical challenges and high-speed thrills that push the limits of both car and driver. With a total length of 5.412 kilometres and requiring 57 laps to complete the race distance of 308.238 kilometres, the track layout is designed to test the prowess of teams in terms of strategy, vehicle setup, and driver skill.",
+          "One of the defining features of Al-Zallaq Speedway is its diverse range of corners, from tight hairpins to sweeping curves, coupled with long straights that allow for breathtaking acceleration and overtaking manoeuvres. This diversity demands a high level of adaptability from the teams, making each lap an intense battle against the clock. The track's surface, combined with the typically hot and arid Bahraini climate, presents a unique challenge in terms of tyre management, requiring teams to execute flawless pit strategies to maintain a competitive edge.",
+          "Over the years, the Al-Zallaq Speedway has been the stage for many memorable moments in Formula A Racing history, from nail-biting finishes to unexpected underdog victories. The current lap record of 1:31.447 stands as a testament to the circuit's demanding nature and the relentless pursuit of perfection by the drivers. As the lights go out each season in Bahrain, the Al-Zallaq Speedway continues to symbolize the enduring appeal of Formula A Racing, marrying the ancient desert backdrop with the cutting-edge technology of modern motorsport."
+        ],
         "image": {
           "url": "./images/trackImages/bahrain.svg",
           "alt": "bahrain track"
-        }
+        },
+        "First Grand Prix": 2004,
+        "Number of Laps": 57,
+        "Circuit Length": "5.412 km",
+        "Race Distance": "308.238 km",
+        "Lap Record": "1:31.447"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/bahrain.webp",
@@ -44,11 +54,7 @@
           "points": 26,
           "driver": {
             "name": "Marco Bianchi",
-            "team": "Sorrento Motors",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Sorrento Motors"
           }
         },
         {
@@ -56,11 +62,7 @@
           "points": 18,
           "driver": {
             "name": "Miguel Santos",
-            "team": "Ravenstone",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Ravenstone"
           }
         },
         {
@@ -68,11 +70,7 @@
           "points": 15,
           "driver": {
             "name": "Alexander Rossi",
-            "team": "Purple Whale Racing",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Purple Whale Racing"
           }
         }
       ]
@@ -91,10 +89,20 @@
       "trackInfo": {
         "name": "Jeddah Corniche Circuit",
         "location": "Jeddah",
+        "bio": [
+          "The Jeddah Street Circuit, introduced to the Formula A Racing calendar in 2021, quickly established itself as one of the most exhilarating and demanding tracks in the series. Winding through the streets of Jeddah, Saudi Arabia, this circuit combines the thrill of street racing with the unforgiving precision required to navigate its 6.174-kilometer layout. With 50 laps making up the total race distance of 308.700 kilometers, the circuit challenges drivers with its blend of high-speed straights, tight corners, and minimal margins for error, all under the picturesque Arabian night sky.",
+          "This circuit is renowned for its spectacular night races, where the illuminated track against the backdrop of the Jeddah Corniche creates a stunning visual spectacle. The fast-paced nature of the circuit, complemented by its narrow confines, amplifies the sense of speed and requires drivers to exhibit supreme concentration and skill. The current lap record of 1:29.620 is a testament to the high-speed potential of the circuit, pushing the cars and their drivers to the limit as they vie for supremacy in one of the most challenging races of the season.",
+          "Since its debut, the Jeddah Street Circuit has become a favorite among fans and drivers alike, offering a unique racing experience that combines the heritage and culture of Saudi Arabia with the adrenaline-pumping action of Formula A Racing. The track not only tests the limits of the racing teams but also serves as a symbol of the sport's global appeal and its ability to bring together people from different cultures and backgrounds in celebration of speed, technology, and competitive spirit."
+        ],
         "image": {
           "url": "./images/trackImages/jeddah.svg",
           "alt": "jeddah track"
-        }
+        },
+        "First Grand Prix": 2021,
+        "Number of Laps": 50,
+        "Circuit Length": "6.174 km",
+        "Race Distance": "308.700 km",
+        "Lap Record": "1:29.620"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/saudi.webp",
@@ -120,11 +128,7 @@
           "points": 26,
           "driver": {
             "name": "Miguel Santos",
-            "team": "Ravenstone",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Ravenstone"
           }
         },
         {
@@ -132,11 +136,7 @@
           "points": 18,
           "driver": {
             "name": "Marco Bianchi",
-            "team": "Sorrento Motors",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Sorrento Motors"
           }
         },
         {
@@ -144,11 +144,7 @@
           "points": 15,
           "driver": {
             "name": "Andre Lefevre",
-            "team": "Everhart Racing",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Everhart Racing"
           }
         }
       ]
@@ -167,10 +163,20 @@
       "trackInfo": {
         "name": "Albert Park Circuit",
         "location": "Melbourne",
+        "bio": [
+          "The Melbourne Grand Circuit, set in the picturesque surroundings of Albert Park, has been a staple of the Formula A Racing calendar since its debut in 1996. As the traditional season opener, this circuit sets the tone for the year, offering a blend of fast straights, technical sections, and challenging corners over its 5.303-kilometer layout. With 58 laps totalling a race distance of 307.574 kilometres, the Melbourne Grand Circuit tests the winter developments of teams and drivers, providing an early indicator of the season's competitive hierarchy.",
+          "Characterized by its smooth asphalt and rapid chicanes, the circuit requires a delicate balance of high-speed stability and aerodynamic efficiency. Drivers relish the opportunity to set competitive times, reflected in the current lap record of 1:24.125, which showcases the blend of technical prowess and sheer speed necessary to excel in Melbourne. The circuit's parkland setting, combined with Melbourne's unpredictable weather, adds an extra layer of complexity to the race strategy, as teams must be prepared to adapt to changing conditions at a moment's notice.",
+          "Over the years, the Melbourne Grand Circuit has been the scene of dramatic races, unexpected victories, and the birthplace of rivalries that have defined seasons. Its place at the start of the Formula A calendar ensures that each race is charged with anticipation and excitement, as teams and drivers unveil their efforts from the off-season and begin their quest for championship glory. The Melbourne Grand Circuit remains a beloved challenge for all involved, embodying the spirit of competition and the enduring appeal of Formula A Racing."
+        ],
         "image": {
           "url": "./images/trackImages/albert.svg",
           "alt": "melbourne track"
-        }
+        },
+        "First Grand Prix": 1996,
+        "Number of Laps": 58,
+        "Circuit Length": "5.303 km",
+        "Race Distance": "307.574 km",
+        "Lap Record": "1:24.125"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/australia.webp",
@@ -196,11 +202,7 @@
           "points": 26,
           "driver": {
             "name": "Alexander Rossi",
-            "team": "Purple Whale Racing",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Purple Whale Racing"
           }
         },
         {
@@ -208,11 +210,7 @@
           "points": 18,
           "driver": {
             "name": "Remy Dubois",
-            "team": "Vittori Autosport",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Vittori Autosport"
           }
         },
         {
@@ -220,11 +218,7 @@
           "points": 15,
           "driver": {
             "name": "Marco Bianchi",
-            "team": "Sorrento Motors",
-            "image": {
-              "url": "",
-              "alt": ""
-            }
+            "team": "Sorrento Motors"
           }
         }
       ]
@@ -232,7 +226,7 @@
     {
       "id": 4,
       "round": 4,
-      "status": "pending",
+      "status": "completed",
       "country": {
         "name": "Japan",
         "image": {
@@ -243,10 +237,20 @@
       "trackInfo": {
         "name": "Suzuka International Racing Course",
         "location": "Suzuka",
+        "bio": [
+          "Nestled amidst the picturesque landscapes of Japan, the Suzuka International Racing Course stands as a testament to the exhilarating spirit of Formula S Racing. Since its inauguration in 1976, this legendary circuit has been an iconic fixture in the Formula S calendar, captivating drivers and fans alike with its challenging layout and rich racing history. Spanning a total length of 5.807 kilometres and encompassing 53 laps to complete the race distance of 307.573 kilometres, Suzuka is renowned for its unique blend of technical complexity and high-speed straights, providing a true test of skill and strategy for drivers and teams.",
+          "At the heart of Suzuka's allure lies its iconic figure-eight layout, featuring a dynamic combination of fast corners, hairpin bends, and undulating terrain. The circuit's famed 1.5-kilometer long straight challenges drivers to reach blistering speeds before navigating through a series of demanding turns, showcasing their precision and bravery behind the wheel. Suzuka's distinctive characteristics demand a meticulous approach to vehicle setup and tire management, as teams must balance the need for outright speed with the necessity of maintaining stability and grip throughout the gruelling race.",
+          "Over the decades, Suzuka has witnessed countless moments of drama and triumph, from legendary battles between racing titans to stunning underdog victories that have etched themselves into Formula S folklore. The circuit's storied past and unwavering popularity among drivers and fans alike serve as a testament to its enduring legacy in the world of motorsport. With a lap record of 1:30.376 standing as a testament to the circuit's relentless challenge, Suzuka continues to push the boundaries of performance and adrenaline, embodying the timeless allure of Formula S Racing as a thrilling blend of speed, skill, and spectacle."
+        ],
         "image": {
           "url": "./images/trackImages/japan.svg",
           "alt": "Suzuka track"
-        }
+        },
+        "First Grand Prix": 1976,
+        "Number of Laps": 53,
+        "Circuit Length": "5.807 km",
+        "Race Distance": "307.573 km",
+        "Lap Record": "1:30.376"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/japan.webp",
@@ -266,7 +270,32 @@
         "name": "Race",
         "date": "2024-04-07T15:00:00"
       },
-      "results": []
+      "results": [
+        {
+          "position": 1,
+          "points": 26,
+          "driver": {
+            "name": "Lucas Weber",
+            "team": "Vittori Autosport"
+          }
+        },
+        {
+          "position": 2,
+          "points": 18,
+          "driver": {
+            "name": "Marco Bianchi",
+            "team": "Sorrento Motors"
+          }
+        },
+        {
+          "position": 3,
+          "points": 15,
+          "driver": {
+            "name": "Miguel Santos",
+            "team": "Ravenstone"
+          }
+        }
+      ]
     },
     {
       "id": 5,
@@ -282,10 +311,20 @@
       "trackInfo": {
         "name": "Hanghai International Circuit",
         "location": "Shanghai",
+        "bio": [
+          "The Shanghai International Circuit, since its introduction to the Formula S Racing calendar in 2004, has distinguished itself as one of the most technologically advanced and architecturally ambitious tracks in the series. Located in the sprawling metropolis of Shanghai, China, this circuit was designed to test the limits of racing technology and strategy, featuring a 5.451-kilometer lap that winds through 56 laps to cover a race distance of 305.066 kilometers. Its unique blend of high-speed straights, tight corners, and sweeping turns challenges the aerodynamic efficiency and mechanical grip of the cars, demanding excellence from both drivers and their teams.",
+          "Renowned for its iconic 'snail' turn, the Shanghai International Circuit's layout mimics the Chinese character 'shang', which stands for 'high' or 'above'. This symbolizes not only the city's aspirations but also the high standards of competition that the circuit brings to Formula S Racing. The track's combination of long straights and diverse cornering speeds puts immense pressure on braking systems and tire management, making every lap a delicate balance between aggression and conservation. The current lap record of 1:32.238 is a reflection of the sheer velocity and precision required to excel on this demanding circuit.",
+          "Since its debut, the Shanghai International Circuit has been the backdrop for numerous unforgettable races, playing a pivotal role in the championship battles and hosting some of the most strategic and tactically intriguing races in Formula S history. Its state-of-the-art facilities and the fervent enthusiasm of the local fans have made the Chinese Grand Prix a cornerstone event, showcasing the global appeal of Formula S Racing and its ability to bridge diverse cultures through the universal language of motorsport."
+        ],
         "image": {
           "url": "./images/trackImages/china.svg",
           "alt": "Shanghai track"
-        }
+        },
+        "First Grand Prix": 2004,
+        "Number of Laps": 56,
+        "Circuit Length": "5.451 km",
+        "Race Distance": "305.066 km",
+        "Lap Record": "1:32.238"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/china.webp",
@@ -321,10 +360,20 @@
       "trackInfo": {
         "name": "Miami International Autodrome",
         "location": "Miami",
+        "bio": [
+          "The Miami International Autodromo marked its grand entry into the Formula S Racing world in 2022, bringing the high-speed thrills of open-wheel racing to the vibrant city of Miami, Florida. With a circuit length of 5.41 kilometres and a total of 57 laps making up the race distance of 308.37 kilometres, this track has quickly become a favourite for its dynamic layout, which perfectly captures the spirit and energy of its host city. Situated against the backdrop of the stunning Miami skyline and picturesque waterfront, the circuit combines technical challenges with high-speed sections, offering a comprehensive test of driving skill and engineering prowess.",
+          "Designed to encourage close racing and overtaking, the Miami International Autodromo features a mix of long straights, tight hairpins, and sweeping corners that challenge drivers to find the perfect line while pushing their cars to the limit. The diversity of the track layout ensures a thrilling spectacle for fans, with the strategic use of DRS zones amplifying the potential for wheel-to-wheel action. The current lap record of 1:35.246 highlights the circuit's demand for precision and speed, underscoring the intense competition that defines each race held here.",
+          "Since its inauguration, the Miami Grand Prix has quickly established itself as a highlight of the Formula S Racing calendar, celebrated not just for the competitive racing it hosts but also for the festival-like atmosphere that surrounds the event. With Miami's rich cultural tapestry providing a colourful backdrop, the race weekend becomes a celebration of motorsport, entertainment, and community, attracting fans from across the globe to witness the spectacle of Formula S racing under the Floridian sun."
+        ],
         "image": {
           "url": "./images/trackImages/miami.svg",
           "alt": "Miami track"
-        }
+        },
+        "First Grand Prix": 2022,
+        "Number of Laps": 57,
+        "Circuit Length": "5.41 km",
+        "Race Distance": "308.37 km",
+        "Lap Record": "1:35.246"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/miami.webp",
@@ -360,10 +409,20 @@
       "trackInfo": {
         "name": "Autodromo Enzo e Dino Ferrari",
         "location": "Imola",
+        "bio": [
+          "The San Marino Speedway, nestled in the historic town of Imola, Italy, has been an emblematic venue in Formula S Racing since its debut grand prix in 1980. With a circuit length of 4.909 kilometres and demanding a total of 63 laps to complete the race distance of 309.267 kilometres, Imola's track is a blend of high-speed thrills and technical mastery, deeply rooted in the rich motorsport heritage of Italy. Known for its challenging corners, elevation changes, and minimal run-off areas, the track demands respect and precision from every driver daring enough to push the limits on this historic circuit.",
+          "Renowned for its combination of fast straights and complex chicanes, the San Marino Speedway challenges teams to perfect their car setup to achieve the ideal balance between speed and aerodynamic efficiency. The circuit's notorious Variante Alta, Tamburello, and Rivazza corners test the limits of braking and handling, making every lap an intense battle against the track itself. The current lap record of 1:15.484 stands as a testament to the raw speed and technical skill required to master the undulating landscape of Imola.",
+          "Over the years, the San Marino Speedway has etched its place in Formula S history, hosting some of the most memorable and dramatic moments in the sport. Its return to the racing calendar is always met with enthusiasm from fans and competitors alike, who relish the opportunity to compete on a circuit that perfectly encapsulates the spirit of traditional motorsport. The track's historical significance, combined with the passionate Italian fans and the scenic beauty of the surrounding Emilia-Romagna region, ensures that every San Marino Grand Prix is an unforgettable event in the Formula S Racing season."
+        ],
         "image": {
           "url": "./images/trackImages/italy.svg",
           "alt": "Imola track"
-        }
+        },
+        "First Grand Prix": 1980,
+        "Number of Laps": 63,
+        "Circuit Length": "4.909 km",
+        "Race Distance": "309.267 km",
+        "Lap Record": "1:15.484"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/italy.webp",
@@ -399,10 +458,20 @@
       "trackInfo": {
         "name": "Circuit de Monaco",
         "location": "Monaco",
+        "bio": [
+          "The Monte Carlo Circuit in Monaco is the crown jewel of Formula S Racing, offering an unparalleled challenge that combines precision driving, technical prowess, and sheer bravery like no other track on the calendar. Since hosting its first Grand Prix in 1929, this iconic street circuit has become synonymous with the glamour, history, and prestige of motorsport, weaving through the narrow streets of Monaco with a circuit length of just 3.337 kilometres. Despite being the shortest track in Formula S, the 78 laps needed to complete the race distance of 260.286 kilometres are a gruelling test of endurance and concentration, with the barriers always waiting to punish the slightest mistake.",
+          "Navigating the tight corners, elevation changes, and tunnel section of the Monte Carlo Circuit requires a level of skill and focus that is unmatched elsewhere in racing. The circuit's infamous corners, such as the Casino Square, Mirabeau, the Grand Hotel Hairpin, and the Rascasse, offer no margin for error, demanding perfect execution with every lap. The current lap record of 1:14.260 highlights the incredible pace that the world's best drivers can achieve, even in the confines of Monaco's city streets.",
+          "Monaco's Grand Prix is much more than a race; it's a spectacle steeped in tradition and luxury, attracting celebrities, royalty, and racing enthusiasts from around the globe. The unique atmosphere, combined with the historical significance and the sheer challenge of the circuit, ensures that the Monaco Grand Prix remains a bucket-list event for fans and a coveted trophy for drivers. Winning in Monaco is not just about speed; it's about mastering one of motorsport's greatest challenges and etching one's name into the annals of Formula S history."
+        ],
         "image": {
           "url": "./images/trackImages/monaco.svg",
           "alt": "Monaco track"
-        }
+        },
+        "First Grand Prix": 1929,
+        "Number of Laps": 78,
+        "Circuit Length": "3.337 km",
+        "Race Distance": "260.286 km",
+        "Lap Record": "1:14.260"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/monaco.webp",
@@ -411,16 +480,16 @@
       "sessions": [
         {
           "name": "Practise 1",
-          "date": "2024-05-24T13:00:00"
+          "date": "2024-05-31T13:00:00"
         },
         {
           "name": "Qualifying",
-          "date": "2024-05-25T15:00:00"
+          "date": "2024-06-01T15:00:00"
         }
       ],
       "race": {
         "name": "Race",
-        "date": "2024-05-26T15:00:00"
+        "date": "2024-06-02T15:00:00"
       },
       "results": []
     },
@@ -436,12 +505,22 @@
         }
       },
       "trackInfo": {
-        "name": "Circuit Gilles-Villeneuve",
-        "location": "Montréal",
+        "name": "Circuit Gilles Villeneuve",
+        "location": "Montreal",
+        "bio": [
+          "The Montreal Race Park, nestled on the picturesque Île Notre-Dame in the heart of Montreal, Canada, has been a staple of the Formula S Racing calendar since its inaugural Grand Prix in 1978. Known for its high-speed straights and challenging chicanes, the circuit stretches 4.361 kilometres, requiring drivers to complete 70 laps to cover the race distance of 305.270 kilometres. This track is famed for its unique blend of technical complexity and the opportunity for thrilling high-speed duels, making it a favourite among drivers and fans alike.",
+          "One of the circuit's most defining features is the Wall of Champions, a barrier at the exit of the final chicane that has seen many of the sport's greatest names make costly errors under the pressure of this challenging track. The combination of long straights leading into heavy braking zones demands exceptional precision and car control, as well as strategic foresight from the teams to optimize overtaking opportunities. The current lap record of 1:13.078 is a testament to the blistering pace and skill required to excel on this circuit.",
+          "Over the years, the Montreal Race Park has been the backdrop for numerous dramatic moments in Formula S history, from rain-soaked battles to dramatic finishes that have left an indelible mark on the championship standings. Its location, set against the backdrop of one of Canada's most vibrant cities, adds to the allure of the event, creating a festival atmosphere that encapsulates the spirit of Formula S Racing. The Montreal Grand Prix remains not just a race, but a celebration of speed, skill, and the enduring appeal of motorsport."
+        ],
         "image": {
           "url": "./images/trackImages/canada.svg",
-          "alt": "Montréal track"
-        }
+          "alt": "Montreal track"
+        },
+        "First Grand Prix": 1978,
+        "Number of Laps": 70,
+        "Circuit Length": "4.361 km",
+        "Race Distance": "305.27 km",
+        "Lap Record": "1:13.622"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/canada.webp",
@@ -450,16 +529,16 @@
       "sessions": [
         {
           "name": "Practise 1",
-          "date": "2024-06-07T13:00:00"
+          "date": "2024-06-14T13:00:00"
         },
         {
           "name": "Qualifying",
-          "date": "2024-06-08T15:00:00"
+          "date": "2024-06-15T15:00:00"
         }
       ],
       "race": {
         "name": "Race",
-        "date": "2024-06-09T15:00:00"
+        "date": "2024-06-16T15:00:00"
       },
       "results": []
     },
@@ -471,59 +550,30 @@
         "name": "Spain",
         "image": {
           "url": "./images/flags/spain-flag.webp",
-          "alt": "spain flag"
+          "alt": "Spanish flag"
         }
       },
       "trackInfo": {
-        "name": "Circuit de Barcelona-Catalunya",
+        "name": "Barcelona Speed Ring",
         "location": "Barcelona",
+        "bio": [
+          "The Barcelona Speed Ring, situated in the scenic Catalonian countryside of Spain, has been a mainstay of Formula S Racing since its inaugural Grand Prix in 1991. This circuit is celebrated for its demanding layout that requires a harmonious balance between high-speed aerodynamics and mechanical grip, spanning 4.675 kilometres with drivers needing to complete 66 laps to reach the race distance of 308.424 kilometres. Its combination of long straights, diverse cornering sequences, and a notoriously tricky final sector challenges even the most seasoned drivers, making it a key test in the racing calendar.",
+          "Renowned for its sweeping turns and technical sections, such as the famous Turn 3 and the challenging La Caixa, the Barcelona Speed Ring tests the limits of car setup and driver endurance. The mix of high-speed and slower corners requires teams to find a compromise in car setup that maximizes overall lap time, a task that has seen many iterations of strategy over the years. The current lap record of 1:18.183 showcases the immense speed and precision that top drivers can extract from their machines on this circuit.",
+          "Beyond its role as a venue for thrilling races, the Barcelona Speed Ring has also become an essential part of pre-season testing, offering teams a comprehensive platform to evaluate their cars' performance in a variety of conditions. This dual role has cemented the circuit's reputation as a crucible of innovation and competition in Formula S Racing. Each year, the Spanish Grand Prix attracts a passionate crowd, eager to witness the spectacle of speed, technology, and human skill converging on one of the sport's most challenging stages."
+        ],
         "image": {
           "url": "./images/trackImages/barcelona.svg",
-          "alt": "Barcelona-Catalunya track"
-        }
+          "alt": "Barcelona Speed Ring"
+        },
+        "First Grand Prix": 1971,
+        "Number of Laps": 53,
+        "Circuit Length": "5.842 km",
+        "Race Distance": "309.626 km",
+        "Lap Record": "1:32.740"
       },
       "backgroundImage": {
         "url": "./images/backgroundImages/spain.webp",
         "alt": "multiple formula S cars on track in spain"
-      },
-      "sessions": [
-        {
-          "name": "Practise 1",
-          "date": "2024-06-21T13:00:00"
-        },
-        {
-          "name": "Qualifying",
-          "date": "2024-06-22T15:00:00"
-        }
-      ],
-      "race": {
-        "name": "Race",
-        "date": "2024-06-23T15:00:00"
-      },
-      "results": []
-    },
-    {
-      "id": 11,
-      "round": 11,
-      "status": "pending",
-      "country": {
-        "name": "Austria",
-        "image": {
-          "url": "./images/flags/austria-flag.webp",
-          "alt": "austria flag"
-        }
-      },
-      "trackInfo": {
-        "name": "Red Bull Ring",
-        "location": "Spielberg",
-        "image": {
-          "url": "./images/trackImages/redbull-austria.svg",
-          "alt": "Spielberg track"
-        }
-      },
-      "backgroundImage": {
-        "url": "./images/backgroundImages/austria.webp",
-        "alt": "multiple formula S cars on track in austria"
       },
       "sessions": [
         {
@@ -542,27 +592,37 @@
       "results": []
     },
     {
-      "id": 12,
-      "round": 12,
+      "id": 11,
+      "round": 11,
       "status": "pending",
       "country": {
-        "name": "Great Britain",
+        "name": "Austria",
         "image": {
-          "url": "./images/flags/uk-flag.webp",
-          "alt": "uk flag"
+          "url": "./images/flags/austria-flag.webp",
+          "alt": "austria flag"
         }
       },
       "trackInfo": {
-        "name": "Silverstone Circuit",
-        "location": "Silverstone",
+        "name": "Red Bull Ring",
+        "location": "Spielberg",
+        "bio": [
+          "Red Bull Ring, nestled amidst the stunning scenery of the Styrian mountains in Austria, has been a fixture in Formula S Racing since its first Grand Prix in 1970. This track, known for its dramatic elevation changes and high-speed straights, spans 4.318 kilometres, demanding 71 laps from drivers to complete the race distance of 306.452 kilometres. It's a circuit that brilliantly combines natural beauty with the sheer adrenaline of motorsport, offering a compact yet intensely challenging layout that tests both the courage and skill of the drivers.",
+          "Characterized by its fast corners, notably the sweeping uphill right-hander at Turn 1 and the quick changes of direction in the middle sector, Red Bull Ring requires a high level of precision and control. The long straight leading into a heavy braking zone at Turn 2 is a prime spot for overtaking, making races at this circuit unpredictable and exciting. The current lap record of 1:05.619 is a testament to the speed that Formula S cars can achieve on this relatively short but demanding track.",
+          "The Austrian Grand Prix at Red Bull Ring has become renowned for its vibrant atmosphere, created by passionate fans who flock to the Styrian countryside each year to witness the spectacle. The track's natural amphitheatre layout offers spectacular views of the racing action, making it one of the most fan-friendly circuits on the calendar. Over the years, Red Bull Ring has been the stage for many memorable moments in Formula S Racing, its blend of high-speed racing and stunning setting ensuring that each event remains a highlight of the racing season."
+        ],
         "image": {
-          "url": "./images/trackImages/uk.svg",
-          "alt": "Silverstone track"
-        }
+          "url": "./images/trackImages/redbull-austria.svg",
+          "alt": "Spielberg track"
+        },
+        "First Grand Prix": 1970,
+        "Number of Laps": 71,
+        "Circuit Length": "4.318 km",
+        "Race Distance": "306.452 km",
+        "Lap Record": "1:06.957"
       },
       "backgroundImage": {
-        "url": "./images/backgroundImages/uk.webp",
-        "alt": "multiple formula S cars on track in england"
+        "url": "./images/backgroundImages/austria.webp",
+        "alt": "multiple formula S cars on track in austria"
       },
       "sessions": [
         {
@@ -577,6 +637,55 @@
       "race": {
         "name": "Race",
         "date": "2024-07-07T15:00:00"
+      },
+      "results": []
+    },
+    {
+      "id": 12,
+      "round": 12,
+      "status": "pending",
+      "country": {
+        "name": "United Kingdom",
+        "image": {
+          "url": "./images/flags/uk-flag.webp",
+          "alt": "uk flag"
+        }
+      },
+      "trackInfo": {
+        "name": "Silverstone Circuit",
+        "location": "Silverstone",
+        "bio": [
+          "The Silverstone Circuit, with a prestigious history dating back to 1950, stands as a pillar of Formula S Racing, hosting the very first race that would evolve into the modern World Championship. Situated in the heart of the United Kingdom, Silverstone is a circuit that blends high-speed racing with technical precision, stretching over 5.891 kilometres and demanding 52 laps to complete the race distance of 306.198 kilometres. This iconic track is characterized by its fast, flowing layout, including legendary sections like Maggots, Becketts, and Chapel, which test the aerodynamic efficiency and agility of the cars like few other circuits in the world.",
+          "Silverstone's mix of high-speed corners, long straights, and technical sections offers a comprehensive challenge to drivers and teams, requiring a perfect balance in car setup to maximize performance. The circuit's historic Copse corner and the Hangar Straight leading into the high-speed Stowe corner are particularly crucial for achieving fast lap times, contributing to the current lap record of 1:27.097. This track is not just about speed; it's about heritage, and the deep respect drivers and fans alike have for this temple of motorsport.",
+          "The British Grand Prix at Silverstone is more than a race; it's a celebration of motorsport's rich history and its ongoing evolution. The event attracts one of the most knowledgeable and enthusiastic crowds on the Formula S calendar, creating an electric atmosphere that inspires drivers to push their limits. Over the decades, Silverstone has been the backdrop for numerous historic moments, from epic duels to dramatic weather-affected races, cementing its status as a beloved fixture in the world of Formula S Racing."
+        ],
+        "image": {
+          "url": "./images/trackImages/uk.svg",
+          "alt": "Silverstone track"
+        },
+        "First Grand Prix": 1950,
+        "Number of Laps": 52,
+        "Circuit Length": "5.891 km",
+        "Race Distance": "306.198 km",
+        "Lap Record": "1:27.097"
+      },
+      "backgroundImage": {
+        "url": "./images/backgroundImages/uk.webp",
+        "alt": "multiple formula S cars on track in uk"
+      },
+      "sessions": [
+        {
+          "name": "Practise 1",
+          "date": "2024-07-12T13:00:00"
+        },
+        {
+          "name": "Qualifying",
+          "date": "2024-07-13T15:00:00"
+        }
+      ],
+      "race": {
+        "name": "Race",
+        "date": "2024-07-14T15:00:00"
       },
       "results": []
     }
