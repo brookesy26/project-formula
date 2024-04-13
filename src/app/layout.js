@@ -5,8 +5,8 @@ import NavBar from "./components/navBar"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Formula S concept racing sport",
+  description: "Formula S is a concept racing sport developed for a final year, web design and development project: the web is boring breaking the mould",
 };
 
 export default function RootLayout({ children }) {

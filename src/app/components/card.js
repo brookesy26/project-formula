@@ -1,10 +1,18 @@
-import cardStyle from "../css/card.module.css"
+"use client"
+import Link from "next/link"
 
-const Card = ({ id, testId, children, className }) => {
+const Card = ({ id, testId, children, className, href, pageId }) => {
+
+
 
   return (
     <section id={id} className={className} data-testid={testId}>
-      {children}
+
+      <Link href={`${href}/${pageId.id}`} scroll={false}>
+
+        {children}
+
+      </Link>
     </section>
   )
 }

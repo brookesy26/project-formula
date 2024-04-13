@@ -1,10 +1,7 @@
-import titleStyle from "../css/title.module.css"
-
-
-const Title = ({ headerLevel1, link }) => {
+const Title = ({ headerLevel1, link, className }) => {
 
   return (
-    <h1 className={titleStyle.title}><a href={link}>{headerLevel1}</a></h1>
+    <h1 className={className}><a href={link}>{headerLevel1}</a></h1>
   )
 }
 

@@ -1,18 +1,20 @@
 "use client"
-
-import Card from "./card"
 import containerStyle from "../css/cards.module.css"
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import scheduleAnimationSequence from "../js/scheduleAni";
-import FullSection from "./section"
+import teamAnimationSequence from "../js/teamAni";
+import driverAnimationSequence from "../js/driversAni";
+
 
 gsap.registerPlugin(useGSAP);
 
-const CardContainer = ({ children }) => {
+const CardContainer = ({ children, page }) => {
 
   useGSAP(() => {
-    scheduleAnimationSequence()
+    if (page == "schedule") scheduleAnimationSequence();
+    if (page == "teams") teamAnimationSequence();
+    if (page == "drivers") driverAnimationSequence();
   });
 
   return (
@@ -21,8 +23,6 @@ const CardContainer = ({ children }) => {
       <section id={"cardsContainer"} data-testid={'cardsContainer'} className={containerStyle.cardContainer}>
         {children}
       </section>
-      {/* Section require for scroll feature - hidden from screen readers*/}
-      <FullSection className={containerStyle.ending} ariaHidden={"true"} />
     </>
   )
 }

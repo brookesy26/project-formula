@@ -47,7 +47,14 @@
 
 :root {
   --primary-text-color: #000000;
-  --secondary-text-color: #ffffff;
+  --secondary-text-color: #f5f7f8;
+
+  --primary-dark-color: #000000;
+  --primary-light-color: #f5f7f8;
+
+  --primary-red: #D91818;
+  --light-red: #ffe7ea;
+
   --card-scale: 0.7;
   --h3-small: 1.25rem;
   --text-small: 0.9rem;
@@ -55,6 +62,7 @@
   --medium-device: 2.5rem;
   --large-device: 2.5rem;
   --heading-font: "bebas";
+  scroll-padding: 0;
 }
 
 html {
@@ -66,8 +74,25 @@ html {
   margin: 0;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "bebas";
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: clamp(2rem, 4svw, 8svw);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Titillium Web";
+  font-size: 1rem;
 }
 
 body {
@@ -76,30 +101,12 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
+  gap: 1.5em;
+  position: relative;
 }
 
 body::-webkit-scrollbar {
   display: none;
-}
-
-nav {
-  width: 100%;
-  height: fit-content;
-  position: fixed;
-  bottom: 10px;
-  display: flex;
-  justify-content: center;
-  z-index: 9999;
-}
-
-nav {}
-
-nav button {
-  height: 50px;
-  width: 50px;
-  border-radius: 5px;
-  border: none;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.178);
 }
 
 #card0 {
@@ -128,7 +135,15 @@ nav button {
 #card8,
 #card9,
 #card10,
-#card11 {
+#card11,
+#card12,
+#card13,
+#card14,
+#card15,
+#card16,
+#card17,
+#card18,
+#card19 {
   transform: translate3d(0px, 0px, 0px);
   scale: var(--card-scale);
 }
@@ -167,4 +182,171 @@ nav button {
 
 #card11 {
   z-index: -1;
+}
+
+#card12 {
+  z-index: -2;
+}
+
+#card13 {
+  z-index: -3;
+}
+
+#card14 {
+  z-index: -4;
+}
+
+#card15 {
+  z-index: -5;
+}
+
+#card15 {
+  z-index: -6;
+}
+
+#card16 {
+  z-index: -7;
+}
+
+#card17 {
+  z-index: -8;
+}
+
+#card18 {
+  z-index: -9;
+}
+
+#card19 {
+  z-index: -10;
+}
+
+/* Nav start*/
+nav {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+nav button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.363);
+  z-index: 999;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+nav button::before,
+nav button::after,
+nav button div::before,
+nav button div::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: black;
+  margin: auto;
+  border-radius: 2px;
+}
+
+nav button::before {
+  top: 10px;
+  left: 7.5px;
+  width: 25px;
+}
+
+nav button::after {
+  bottom: 10px;
+  left: 7.5px;
+  width: 25px;
+}
+
+nav button div::before,
+nav button div::after {
+  top: 17.5px;
+  left: 7.5px;
+  width: 25px;
+}
+
+
+/*button toggle closed / toggled*/
+
+.open {
+  height: 100%;
+}
+
+.closed {
+  height: 80px;
+  transition: height 1s linear 0.5s;
+}
+
+.open button::before,
+.open button::after {
+  transition: all .2s linear;
+  opacity: 0;
+}
+
+.open button div::before {
+  transition: all .3s linear;
+  transform: rotate(45deg);
+}
+
+.open button div::after {
+  transition: all .3s linear;
+  transform: rotate(-45deg);
+}
+
+.closed button::before,
+.closed button::after {
+  transition: all .2s linear;
+  opacity: 1;
+}
+
+.closed div::before {
+  transition: all .3s linear;
+  transform: rotate(0deg);
+}
+
+
+.closed div::after {
+  transition: all .3s linear;
+  transform: rotate(0deg);
+}
+
+ul {
+  visibility: hidden;
+  z-index: 0;
+}
+
+.closed ul {
+  background: #000000;
+  position: fixed;
+  z-index: 14;
+  height: 100svh;
+  width: 100svw;
+}
+
+.closed ul {
+  visibility: hidden;
+  clip-path: circle(0% at 50svw calc(100svh - 40px));
+  transition: all 0.5s linear;
+}
+
+.open ul {
+  visibility: visible;
+  height: 100svh;
+  width: 100svw;
+  background: #000000;
+  position: fixed;
+  z-index: 900;
+  clip-path: circle(150% at 50svw calc(100svh - 40px));
+  transition: all .9s linear;
+  /* animate maybe with clip mask the background*/
 }

@@ -1,9 +1,9 @@
 .title {
-  color: #000000;
-  font-size: 20svw;
+  color: var(--primary-text-color);
+  font-size: 18svw;
 }
 
 .title a {
-  color: #1a1a1a;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
