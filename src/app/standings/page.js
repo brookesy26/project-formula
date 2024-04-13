@@ -2,7 +2,6 @@
 
 import Title from "@/app/components/title";
 import titleStyle from "@/app/css/title.module.css"
-import cS from "@/app/css/race.module.css";
 import sStyles from "@/app/css/standings.module.css"
 
 import driverStandings from "@/app/json/driverStandings.json";
@@ -30,9 +29,9 @@ export default function Standings({ }) {
 
   return (
     <>
-      <Title headerLevel1={"standings"} className={`${titleStyle.title} ${sStyles.standings}`} />
+      <Title headerLevel1={"standings"} className={`${titleStyle.title} ${sStyles.standings}`} link="#buttons" />
 
-      <section className={sStyles.buttonContainer}>
+      <section className={sStyles.buttonContainer} id="buttons">
         <button onClick={handleViewDriver} className={`${sStyles.button1} ${driverActive}`}>driver</button>
         <button onClick={handleViewTeam} className={`${sStyles.button2} ${teamActive}`}>team</button>
       </section>

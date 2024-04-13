@@ -146,6 +146,7 @@ body::-webkit-scrollbar {
 #card19 {
   transform: translate3d(0px, 0px, 0px);
   scale: var(--card-scale);
+  visibility: hidden;
 }
 
 #card3 {
