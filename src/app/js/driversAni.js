@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import ScrollTrigger from "gsap/dist/ScrollTrigger"
+import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 gsap.registerPlugin(useGSAP);
 
@@ -16,14 +16,15 @@ export default function driverAnimationSequence() {
   function moveOut(timeline, target) {
     timeline.to(target, {
       yPercent: 200,
-      opacity: 0
+      opacity: 0,
     });
   }
 
   function FadeIn(timeline, target) {
     timeline.to(target, {
       scale: "+=0.1",
-      opacity: 1
+      opacity: 1,
+      visibility: "visible",
     }, "-=0.5");
   }
 

@@ -23,7 +23,8 @@ export default function scheduleAnimationSequence() {
   function FadeIn(timeline, target) {
     timeline.to(target, {
       scale: "+=0.1",
-      opacity: 1
+      opacity: 1,
+      visibility: "visible",
     }, "-=0.5");
   }
 
