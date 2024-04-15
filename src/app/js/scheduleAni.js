@@ -4,7 +4,7 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger"
 
 gsap.registerPlugin(useGSAP);
 
-
+//functions for schedule aniamtions using GSAP
 export default function scheduleAnimationSequence() {
   function moveUp(timeline, target) {
     timeline.to(target, {

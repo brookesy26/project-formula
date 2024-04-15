@@ -1,3 +1,5 @@
+/*media queries for driver cards*/
+
 @media (width > 700px) {
   body .title {
     font-size: 12svw;

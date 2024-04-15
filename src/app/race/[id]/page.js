@@ -11,18 +11,30 @@ import { useEffect, useState } from "react";
 import StatusChecker from "@/app/components/statusChecker";
 import FullRaceResults from "@/app/components/fullRaceResults";
 
-export default function Race({ params }) {
-  const [visibility, setVisibility] = useState("")
+/*
+race specific page (dependant on which card is clicked returns the race specific page)
+param is passed over from a next Link for dynamic routing param returns the id of the clicked card
+*/
 
+export default function Race({ params }) {
+  const [visibility, setVisibility] = useState("");
+
+
+  //visibility state logic handler
   function handleDetailsShow() {
     visibility == "" ? setVisibility(cS.visible) : setVisibility("");
   }
+
+  //handles scroll to top instantly on load
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);
 
+  /*locates the correct race from the scheduleJson file corrosponding with the clicked race on previous page */
   const race = scheduleJson.schedule.find(race => race.id === parseInt(params.id));
+
+  /*locates the correct results from the results Json file corrosponding with the clicked race on previous page */
   const results = resultsJson.races.find(result => result.raceID === parseInt(params.id));
 
   return (
@@ -41,7 +53,7 @@ export default function Race({ params }) {
             <>
               <h2>Results</h2>
               <FullRaceResults
-                object={results}
+                array={results.results}
                 className={cS.results}
               />
             </>}

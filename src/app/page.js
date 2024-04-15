@@ -7,6 +7,12 @@ import sectionStyle from "@/app/css/section.module.css"
 import titleStyle from "@/app/css/title.module.css"
 import { useEffect } from "react"
 
+/*
+schedule / home page
+useEffect to return scroll position to top
+jsx returned: (full section component) (title component) (ScheduleCards component)
+*/
+
 export default function Home() {
 
   useEffect(() => {

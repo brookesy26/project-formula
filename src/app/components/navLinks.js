@@ -1,8 +1,15 @@
 "use client"
 
 import Link from "next/link"
-import linkStyles from "../css/links.module.css"
+import linkStyles from "@/app/css/links.module.css"
 import { useState } from "react"
+
+/*
+component to house the page links for navigation
+calls handleClick function on click to handle logic, page is passed through to be set in state
+onClick function to be passed to activate expanded / toggled on click to close the nav
+tenery operators used within classNames that  check if the page is active 
+*/
 
 const NavLinks = ({ onClick }) => {
   const [activePage, setActivePage] = useState("schedule");

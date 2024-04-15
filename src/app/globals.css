@@ -1,3 +1,8 @@
+/*global css here*/
+
+
+/*fonts*/
+
 @font-face {
   font-family: "bebas";
   src: url("./fonts/bebas.woff2");
@@ -45,6 +50,7 @@
   font-weight: 500;
 }
 
+/*root elements*/
 :root {
   --primary-text-color: #000000;
   --secondary-text-color: #f5f7f8;
@@ -109,6 +115,8 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+
+/*card id's included here as they are used throughout the site*/
 #card0 {
   transform: translate3d(0px, 100px, 0px);
   z-index: 10;
@@ -149,6 +157,7 @@ body::-webkit-scrollbar {
   visibility: hidden;
 }
 
+/*indexing required for stacking*/
 #card3 {
   z-index: 7;
 }
@@ -349,5 +358,4 @@ ul {
   z-index: 900;
   clip-path: circle(150% at 50svw calc(100svh - 40px));
   transition: all .9s linear;
-  /* animate maybe with clip mask the background*/
 }

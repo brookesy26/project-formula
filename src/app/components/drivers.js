@@ -4,6 +4,13 @@ import cardStyle from "@/app/css/card.module.css";
 import Image from "next/image";
 import driversJson from "@/app/json/drivers.json";
 
+
+/*
+To display snapshot of driver in a card
+loops over all drivers producing a card and following JSX for each
+drivers data pulled from JSON file using dot notation
+next image component utilised for optimisations 
+*/
 const DriverCard = () => {
 
   return (

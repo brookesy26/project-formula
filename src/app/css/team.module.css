@@ -1,3 +1,6 @@
+/*team page specific css*/
+
+/*media queries*/
 @media (width > 700px) {
   body .title {
     font-size: 12svw;

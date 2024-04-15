@@ -1,11 +1,16 @@
 "use client"
-import containerStyle from "../css/cards.module.css"
+import containerStyle from "@/app/css/cards.module.css";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import scheduleAnimationSequence from "../js/scheduleAni";
-import teamAnimationSequence from "../js/teamAni";
-import driverAnimationSequence from "../js/driversAni";
+import scheduleAnimationSequence from "@/app/js/scheduleAni";
+import teamAnimationSequence from "@/app/js/teamAni";
+import driverAnimationSequence from "@/app/js/driversAni";
 
+/*
+registers GSAP plugin
+calls GSAP's custom hook to check which animation function to call dependent on page
+JSX returned: children jsx with section container 
+*/
 
 gsap.registerPlugin(useGSAP);
 

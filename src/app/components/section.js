@@ -1,7 +1,7 @@
-
-const FullSection = ({ className, ariaHidden, children, id }) => {
+/*container component*/
+const FullSection = ({ className, children, id }) => {
   return (
-    <section id={id} className={className} >{children}</section>
+    <section id={id} className={className}>{children}</section>
   )
 }
 
