@@ -1,5 +1,10 @@
 import sb from "@/app/css/card.module.css";
 
+/*
+to display the driver specific standings on standings page 
+displayed inside a table 
+takes in an array (results) and maps over the elements 
+*/
 const DriverStandings = ({ array, className }) => {
   return (
     <table className={className}>

@@ -7,6 +7,12 @@ import tS from "@/app/css/title.module.css"
 import TeamCards from "@/app/components/teams"
 import { useEffect } from "react"
 
+/*
+teams page
+useEffect to return scroll position to top
+jsx returned: (full section component) (title component) (team cards component)
+*/
+
 export default function Teams() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });

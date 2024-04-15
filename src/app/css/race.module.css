@@ -1,3 +1,5 @@
+/*media queries for race specific page*/
+
 @media (width > 1100px) {
 
   body .scheduleContainer {
@@ -169,7 +171,6 @@
   z-index: 2;
   color: var(--primary-text-color);
   background-color: var(--primary-light-color);
-  /* border: 1px solid var(--primary-dark-color); */
   border-radius: 5px;
   grid-row: 3/4;
   grid-column: 1/13;

@@ -5,17 +5,26 @@ import Image from "next/image"
 import { useEffect, useState } from "react";
 import teamJson from "@/app/json/teams.json";
 
+/*
+team specific page (dependant on which card is clicked returns the team specific page)
+param is passed over from a next Link for dynamic routing param returns the id of the clicked card
+*/
+
 export default function Driver({ params }) {
   const [visibility, setVisibility] = useState("")
 
+  //handles scroll to top instantly on load
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);
+
+  //visibility state logic handler
 
   function handleDetailsShow() {
     visibility == "" ? setVisibility(tStyles.visible) : setVisibility("");
   }
 
+  /*locates the correct team from the team json file corresponding with the clicked team on previous page */
   const team = teamJson.teams.find(team => team.id === parseInt(params.id));
 
   return (

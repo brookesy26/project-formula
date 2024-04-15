@@ -1,6 +1,12 @@
 import sb from "@/app/css/card.module.css";
 
-const FullRaceResults = ({ object, className }) => {
+/*
+to display the race specific results 
+displayed inside a tbale contained within a details element
+takes in an array (results) and maps over the elements 
+*/
+
+const FullRaceResults = ({ array, className }) => {
   return (
     <details className={className}>
       <summary>Click to reveal</summary>
@@ -14,7 +20,7 @@ const FullRaceResults = ({ object, className }) => {
           </tr>
         </thead>
         <tbody>
-          {object.results.map((result, j) => (
+          {array.map((result, j) => (
             <tr key={`result${j}`} className={sb.session}>
               <td>{result.position}</td>
               <td>{result.driver.name}</td>

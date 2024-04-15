@@ -7,15 +7,5 @@
   position: sticky;
   top: 5svh;
   z-index: 11;
-}
-
-.cardContainer,
-.ending {
   grid-column: 1/13;
-}
-
-
-/* edit height for more scroll length for cards*/
-.ending {
-  height: 500svh;
 }

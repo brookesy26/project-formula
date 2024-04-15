@@ -4,6 +4,11 @@ import cardStyle from "@/app/css/card.module.css";
 import Image from "next/image";
 import teamsJson from "@/app/json/teams.json";
 
+/*
+calls cardContainer component passing in the current page and JSX children elements
+maps over json file to produce required cards (using the card component, JSX children elements are entered within)
+*/
+
 const TeamCard = () => {
 
   return (

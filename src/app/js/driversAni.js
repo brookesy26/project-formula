@@ -4,6 +4,7 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 gsap.registerPlugin(useGSAP);
 
+//functions for driver aniamtions using GSAP
 
 export default function driverAnimationSequence() {
   function moveUp(timeline, target) {

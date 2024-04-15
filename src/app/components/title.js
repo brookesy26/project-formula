@@ -1,3 +1,6 @@
+
+/*title component returns children wrapped inside a tag and h1*/
+
 const Title = ({ headerLevel1, link, className }) => {
 
   return (

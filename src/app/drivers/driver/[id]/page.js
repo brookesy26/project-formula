@@ -5,17 +5,27 @@ import Image from "next/image"
 import { useEffect, useState } from "react";
 import driversJson from "@/app/json/drivers.json";
 
+
+/*
+driver specific page (dependant on which card is clicked returns the driver specific page)
+param is passed over from a next Link for dynamic routing param returns the id of the clicked card
+*/
+
 export default function Driver({ params }) {
   const [visibility, setVisibility] = useState("")
+
+  //handles scroll to top instantly on load
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);
 
+  //visibility state logic handler
   function handleDetailsShow() {
     visibility == "" ? setVisibility(dStyles.visible) : setVisibility("");
   }
 
+  /*locates the correct driver from the driverJson file corrosponding with the clicked driver on previous page */
   const driver = driversJson.drivers.find(driver => driver.id === parseInt(params.id));
 
   return (

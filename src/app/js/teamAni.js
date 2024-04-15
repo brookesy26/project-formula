@@ -5,6 +5,7 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger"
 gsap.registerPlugin(useGSAP);
 
 
+//functions for team aniamtions using GSAP
 export default function teamAnimationSequence() {
   function moveUp(timeline, target) {
     timeline.to(target, {

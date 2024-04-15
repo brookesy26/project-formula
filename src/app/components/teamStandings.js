@@ -1,5 +1,11 @@
 import sb from "@/app/css/card.module.css";
 
+/*
+to display the team specific standings on standings page 
+displayed inside a table 
+takes in an array (results) and maps over the elements 
+*/
+
 const TeamStandings = ({ array, className }) => {
   return (
     <table className={className}>

@@ -1,5 +1,11 @@
-import { handleDate, handleTime } from "../js/dateTime.mjs"
-import sb from "../css/card.module.css"
+import { handleDate, handleTime } from "@/app/js/dateTime.mjs"
+import sb from "@/app/css/card.module.css"
+
+/*
+takes in an object for specific arrays to be mapped over 
+returns session specific data and race specific data 
+calls handleDate and handleTime functions to manage and correctly display dates 
+*/
 
 const ScheduleBreakdown = ({ object, sectionIndex, className }) => {
 
