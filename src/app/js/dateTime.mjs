@@ -9,7 +9,7 @@ export function handleTime(date) {
   let hours = new Date(date).getHours()
   let mins = new Date(date).getMinutes();
   let strHours = new String(hours).padStart(2, "0");
-  let strMins = new String(mins).padStart(2, 0);
+  let strMins = new String(mins).padStart(2, "0");
   return `${strHours}:${strMins}`
 }
 

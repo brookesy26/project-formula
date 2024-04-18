@@ -6,6 +6,7 @@ import fs from "@/app/css/section.module.css"
 import tS from "@/app/css/title.module.css"
 import TeamCards from "@/app/components/teams"
 import { useEffect } from "react"
+import ScrollIndicator from "@/app/components/scrollIndicator"
 
 /*
 teams page
@@ -22,6 +23,7 @@ export default function Teams() {
     <>
       <FullSection className={fs.titleSection}>
         <Title headerLevel1={"Teams"} link={"#cardsContainer"} className={tS.title} />
+        <ScrollIndicator className={fs.scrollIndicator} />
       </FullSection>
 
       <TeamCards />

@@ -6,6 +6,7 @@ import FullSection from "@/app/components/section"
 import sectionStyle from "@/app/css/section.module.css"
 import titleStyle from "@/app/css/title.module.css"
 import { useEffect } from "react"
+import ScrollIndicator from "@/app/components/scrollIndicator"
 
 /*
 schedule / home page
@@ -23,6 +24,7 @@ export default function Home() {
     <>
       <FullSection className={sectionStyle.titleSection}>
         <Title headerLevel1={"Schedule"} link={"#cardsContainer"} className={titleStyle.title} />
+        <ScrollIndicator className={sectionStyle.scrollIndicator} />
       </FullSection>
       <ScheduleCards />
     </>
