@@ -6,6 +6,7 @@ import fs from "@/app/css/section.module.css"
 import tS from "@/app/css/title.module.css"
 import DriverCards from "@/app/components/drivers"
 import { useEffect } from "react"
+import ScrollIndicator from "@/app/components/scrollIndicator"
 
 /*
 drivers page
@@ -22,6 +23,7 @@ export default function Drivers() {
     <>
       <FullSection className={fs.titleSection}>
         <Title headerLevel1={"Drivers"} link={"#cardsContainer"} className={tS.title} />
+        <ScrollIndicator className={fs.scrollIndicator} />
       </FullSection>
 
       <DriverCards />

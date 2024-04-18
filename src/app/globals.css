@@ -281,7 +281,7 @@ nav button::after {
 
 nav button div::before,
 nav button div::after {
-  top: 17.5px;
+  top: 18px;
   left: 7.5px;
   width: 25px;
 }

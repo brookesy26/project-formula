@@ -7,4 +7,41 @@
   align-items: center;
   justify-content: center;
   z-index: 0;
+  position: relative;
+}
+
+.scrollIndicator {
+  border: 2px solid black;
+  height: 35px;
+  width: 20px;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 28vh;
+  animation: scrollAni 1.5s ease-in-out infinite;
+}
+
+.scrollIndicator::after {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 2px;
+  border-radius: 25%;
+  position: absolute;
+  top: 5px;
+  left: calc(50% - 1px);
+  background-color: black;
+}
+
+@keyframes scrollAni {
+  0% {
+    bottom: 28vh
+  }
+
+  50% {
+    bottom: 25vh
+  }
+
+  100% {
+    bottom: 28vh
+  }
 }
