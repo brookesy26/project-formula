@@ -257,7 +257,7 @@ body a .scheduleContainer {
 }
 
 .driverCard {
-  background: linear-gradient(90deg, var(--light-red) 0%, rgb(49, 37, 37) 100%);
+  background: linear-gradient(90deg, var(--light-red) 0%, #312525 100%);
 }
 
 .stats {

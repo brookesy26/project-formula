@@ -252,6 +252,7 @@ nav button {
   position: relative;
   margin-top: auto;
   margin-bottom: 20px;
+  background-color: var(--primary-dark-color);
 }
 
 nav button::before,
@@ -261,7 +262,7 @@ nav button div::after {
   content: "";
   position: absolute;
   height: 4px;
-  background-color: black;
+  background-color: var(--primary-light-color);
   margin: auto;
   border-radius: 2px;
 }

@@ -6,18 +6,11 @@ children elements are any JSX entered when the component is called
 link href: passes over thepageId.id can be accessed as params for dynamic routing 
 */
 
-const Card = ({ id, testId, children, className, href, pageId }) => {
+const ScrollIndicator = ({ }) => {
 
   return (
-    <section id={id} className={className} data-testid={testId}>
-
-      <Link href={`${href}/${pageId.id}`} scroll={false}>
-
-        {children}
-
-      </Link>
-    </section>
+    <div></div>
   )
 }
 
-export default Card
+export default ScrollIndicator;
