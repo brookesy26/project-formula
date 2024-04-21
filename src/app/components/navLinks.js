@@ -21,7 +21,13 @@ const NavLinks = ({ onClick }) => {
 
   return (
     <ul className={linkStyles.ul}>
-      <li><Link href={"/#cardsContainer"} onClick={() => handleClick("schedule")} className={activePage == "schedule" ? linkStyles.activePage : ""} scroll={false}>Schedule</Link></li>
+      <li>
+        <Link href={"/"}
+          onClick={() => handleClick("schedule")}
+          className={activePage == "schedule" ? linkStyles.activePage : ""}
+          scroll={false}>Schedule</Link>
+      </li>
+
       <li><Link href={"/standings"} onClick={() => handleClick("standings")} className={activePage == "standings" ? linkStyles.activePage : ""} scroll={false}>Standings</Link></li>
       <li><Link href={"/teams"} onClick={() => handleClick("teams")} className={activePage == "teams" ? linkStyles.activePage : ""} scroll={false}>Teams</Link></li>
       <li><Link href={"/drivers"} onClick={() => handleClick("drivers")} className={activePage == "drivers" ? linkStyles.activePage : ""} scroll={false}>Drivers</Link></li>

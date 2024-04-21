@@ -257,8 +257,8 @@ nav button {
 
 nav button::before,
 nav button::after,
-nav button div::before,
-nav button div::after {
+nav button span::before,
+nav button span::after {
   content: "";
   position: absolute;
   height: 4px;
@@ -279,8 +279,8 @@ nav button::after {
   width: 25px;
 }
 
-nav button div::before,
-nav button div::after {
+nav button span::before,
+nav button span::after {
   top: 18px;
   left: 7.5px;
   width: 25px;
@@ -304,12 +304,12 @@ nav button div::after {
   opacity: 0;
 }
 
-.open button div::before {
+.open button span::before {
   transition: all .3s linear;
   transform: rotate(45deg);
 }
 
-.open button div::after {
+.open button span::after {
   transition: all .3s linear;
   transform: rotate(-45deg);
 }
@@ -320,13 +320,12 @@ nav button div::after {
   opacity: 1;
 }
 
-.closed div::before {
+.closed span::before {
   transition: all .3s linear;
   transform: rotate(0deg);
 }
 
-
-.closed div::after {
+.closed span::after {
   transition: all .3s linear;
   transform: rotate(0deg);
 }

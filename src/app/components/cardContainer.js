@@ -25,9 +25,9 @@ const CardContainer = ({ children, page }) => {
   return (
     <>
       {/* Card container section*/}
-      <section id={"cardsContainer"} data-testid={'cardsContainer'} className={containerStyle.cardContainer}>
+      <main id={"cardsContainer"} data-testid={'cardsContainer'} className={containerStyle.cardContainer}>
         {children}
-      </section>
+      </main>
     </>
   )
 }

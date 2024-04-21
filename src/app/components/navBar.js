@@ -14,7 +14,6 @@ const NavBar = () => {
   const [toggle, setToggle] = useState("closed")
   const [expandedState, setExspandedState] = useState(false)
 
-
   const handleMenuToggle = () => {
     expandedState == false ? setExspandedState(true) : setExspandedState(false);
     toggle == "closed" ? setToggle("open") : setToggle("closed");

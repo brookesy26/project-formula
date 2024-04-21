@@ -7,7 +7,14 @@ const MenuButton = ({ onClick, className, expandedState }) => {
   aria-expanded used for accessability 
   */
   return (
-    <button type="button" aria-label="main navigation" aria-expanded={expandedState} className={className} onClick={onClick}><div></div></button>
+    <button
+      type="button"
+      aria-label="main navigation"
+      aria-expanded={expandedState}
+      className={className}
+      onClick={onClick}>
+      <span></span>
+    </button>
   )
 }
 
