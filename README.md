@@ -15,7 +15,8 @@ Before you begin, ensure you have met the following requirements:
 3. Open the root folder in Visual Studio Code - File > open Folder
 5. Ensure docker desktop is running
 4. A message should appear instructing to Re-open in a container, agree to this.
-5. Wait for the dev container to setup and install dependancies. 
+5. Wait for the dev container to setup
+6. Open a new console - enter the command - npm install 
 6. Run the command below to check if it has worked.
 
 
