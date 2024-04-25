@@ -115,6 +115,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+table {
+  font-family: "Titillium Web";
+}
+
 
 /*card id's included here as they are used throughout the site*/
 #card0 {
