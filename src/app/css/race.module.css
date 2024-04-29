@@ -75,7 +75,7 @@
 
 .scheduleContainer h2,
 .track h2 {
-  font-family: "bebas";
+  font-family: var(--bebas);
   padding: 10px 0 0 10px;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .track span {
-  font-family: "bebas";
+  font-family: var(--bebas);
   font-size: 1.5rem;
 }
 
