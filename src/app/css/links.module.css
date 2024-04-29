@@ -3,7 +3,7 @@
 .ul a {
   color: white;
   text-decoration: none;
-  font-family: "bebas";
+  font-family: var(--bebas);
   font-size: 2.5rem;
 }
 

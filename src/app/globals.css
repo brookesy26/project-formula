@@ -2,12 +2,6 @@
 
 
 /*fonts*/
-
-@font-face {
-  font-family: "bebas";
-  src: url("./fonts/bebas.woff2");
-}
-
 @font-face {
   font-family: "Titillium Web";
   src: url("./fonts/TitilliumWeb-Regular.woff2");
@@ -67,7 +61,7 @@
   --large-text-small-device: 2.5rem;
   --medium-device: 2.5rem;
   --large-device: 2.5rem;
-  --heading-font: "bebas";
+  --heading-font: var(--bebas);
   scroll-padding: 0;
 }
 
@@ -84,7 +78,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "bebas";
+  font-family: var(--bebas);
   letter-spacing: 1px;
 }
 

@@ -95,7 +95,7 @@
 }
 
 .statsContainer span {
-  font-family: "bebas";
+  font-family: var(--bebas);
   font-size: 1.5rem;
 }
 
